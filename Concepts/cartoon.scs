@@ -25,11 +25,17 @@ cartoon
     -> stop_motion_animation;;
     -> computer_animation;;
     -> sand;;
+    => nrel_main_idtf:
+      [Разбиение по способу создания анимации](* <- lang_ru;; *);
+      [Subdividing by creating animation](* <- lang_en;; *);;
   *);
 
   <= nrel_duration:... (*
     -> full_length_cartoons;;
     -> short_cartoons;;
+    => nrel_main_idtf:
+      [Разбиение по продолжительности анимации](* <- lang_ru;; *);
+      [Subdividing by duration animation](* <- lang_en;; *);;
   *);
 
   <- rrel_key_sc_element:... (*

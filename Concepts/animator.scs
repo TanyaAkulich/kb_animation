@@ -45,6 +45,9 @@ animator
     -> traditional_animation;;
     -> stop_motion_animation;;
     -> computer_animation;;
+    => nrel_main_idtf:
+      [Разбиение по используемым технологиям аниматорами](* <- lang_ru;; *);
+      [Subdividing by used technologies by animators](* <- lang_en;; *);;
   *);
 
 
