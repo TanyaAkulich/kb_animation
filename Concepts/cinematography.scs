@@ -1,0 +1,35 @@
+cinematography
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [кинематограф] (* <- lang_ru;; *);
+    [cinematography] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (кинематограф)] (* <- lang_ru;; *);
+      [Def. (cinematography)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> film;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="cinematography">Кинематограф</b></sc_element> - это это область культуры и экономики, объединяющая все виды профессиональной деятельности, связанной с производством, распространением, хранением и показом <b><sc_element sys_idtf="film">фильмов</b></sc_element>, а также учебно-научную работу (киноведение).] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="cinematography">Cinematography</b></sc_element> is a field of culture and economics, uniting all kinds of professional activities related to the production, distribution, storage and display of <b><sc_element sys_idtf="film">films</b></sc_element>, as well as educational and scientific work (film studies).](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (кинематограф)] (* <- lang_ru;; *);
+      [Exp. (cinematography)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> cartoon;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Первый <b><sc_element sys_idtf="cartoon">мультфильм</b></sc_element> был снят в 1906 году.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [The first <b><sc_element sys_idtf="cartoon">animated cartoon</b></sc_element> was produced in 1906.](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);;
