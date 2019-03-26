@@ -1,0 +1,23 @@
+short_film
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [короткометражный фильм] (* <- lang_ru;; *);
+    [short film] (* <- lang_en;; *);
+
+  <= nrel_inclusion: cinema;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (короткометражный фильм)] (* <- lang_ru;; *);
+      [Def. (feature film)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> feature_film;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="short_film">короткометражный фильм</b></sc_element> - это <b><sc_element sys_idtf="cinema">фильм</b></sc_element>, длина которого не превышает 40-50 минут. Средняя длина короткометражки колеблется в промежутке от 10 до 30 минут. Противопоставляется <b><sc_element sys_idtf="feature_film">полнометражному фильму</b></sc_element> (иногда выделяется также промежуточная категория среднеметражных фильмов).] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="short_film">Feature film</b></sc_element> is a  <b><sc_element sys_idtf="cinema">film</b></sc_element> whose length does not exceed 40-50 minutes. The average length of a short film ranges from 10 to 30 minutes. Opposed to a <b><sc_element sys_idtf="feature_film">full-length film</b></sc_element> (sometimes also the intermediate category of medium-length films is highlighted).](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
