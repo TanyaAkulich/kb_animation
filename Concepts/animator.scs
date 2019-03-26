@@ -39,7 +39,7 @@ animator
       -> [При создании <b><sc_element sys_idtf="animation">анимации</b></sc_element> используются разнообразные технологии, включая <b><sc_element sys_idtf="traditional_animation">рисунки</b></sc_element>, <b><sc_element sys_idtf="stop_motion_animation">кукольную мультипликацию</b></sc_element>, <b><sc_element sys_idtf="computer_animation">трёхмерную графику</b></sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
       -> [When creating <b><sc_element sys_idtf="animation">animation</b></sc_element>, various technologies are used, including <b><sc_element sys_idtf="traditional_animation">drawings</b></sc_element>, <b><sc_element sys_idtf="stop_motion_animation">doll animation</b></sc_element>, <b><sc_element sys_idtf="computer_animation">three-dimensional graphics</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
-  *);;
+  *);
 
   <= nrel_used_technologies_by_animators:... (*
     -> traditional_animation;;

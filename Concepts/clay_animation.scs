@@ -1,0 +1,49 @@
+clay_animation
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [пластилиновая анимация] (* <- lang_ru;; *);
+    [clay animation] (* <- lang_en;; *);
+  => nrel_idtf:
+    [пластилиновая мультипликация] (* <- lang_ru;; *);
+    [claymation] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (пластилиновая анимация)] (* <- lang_ru;; *);
+      [Def. (clay animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> stop_motion_animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="clay_animation">Пластилиновая анимация</b></sc_element> - это один из видов <b><sc_element sys_idtf="stop_motion_animation">кукольной мультипликации</b></sc_element>] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="clay_animation">Clay animation</b></sc_element> is sometimes plasticine animation, is one of many forms of <b><sc_element sys_idtf="stop_motion_animation">stop motion animation</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (пластилиновая анимация)] (* <- lang_ru;; *);
+      [Exp. (clay animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> comedy;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Не все для остановки движения требуют фигур или моделей: пленки для замедленной съемки также могут быть сделаны с использованием людей, бытовых приборов и других предметов, обычно для <b><sc_element sys_idtf="comedy">комедийного эффекта</b></sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [Not all stop motion, however, requires figures or models: stop-motion films can also be made using humans, household appliances, and other objects, usually for <b><sc_element sys_idtf="comedy">comedic effect</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (пластилиновая анимация)] (* <- lang_ru;; *);
+      [Pic. (clay_animation)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/clay_animation.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
