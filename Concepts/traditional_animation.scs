@@ -1,0 +1,50 @@
+traditional_animation
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [традиционная анимация] (* <- lang_ru;; *);
+    [traditional animation] (* <- lang_en;; *);
+  => nrel_idtf:
+    [classical animation] (* <- lang_en;; *);
+    [cel animation] (* <- lang_en;; *);
+    [hand-drawn animation] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (традиционная анимация)] (* <- lang_ru;; *);
+      [Def. (traditional animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="traditional_animation">традиционная анимация</b></sc_element> - это техника <b><sc_element sys_idtf="animation">анимации</b></sc_element>, в которой каждый кадр рисуется от руки на физическом носителе.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="traditional_animation">Traditional animation</b></sc_element> is an <b><sc_element sys_idtf="animation">animation</b></sc_element> technique in which each frame is drawn by hand on a physical medium.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (традиционная анимация)] (* <- lang_ru;; *);
+      [Exp. (traditional animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> computer_animation;;
+      -> cinema;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Техника была доминирующей формой <b><sc_element sys_idtf="animation">анимации</b> в <b><sc_element sys_idtf="cinema">кино</b></sc_element> до появления <b><sc_element sys_idtf="computer_animation">компьютерной анимации</b>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The technique was the dominant form of <b><sc_element sys_idtf="animation">animation</b></sc_element> in <b><sc_element sys_idtf="cinema">cinema</b></sc_element> until the advent of <b><sc_element sys_idtf="computer_animation">computer animation</b>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (традиционная анимация)] (* <- lang_ru;; *);
+      [Pic. (traditional_animation)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/traditional_animation.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
