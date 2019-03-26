@@ -1,0 +1,47 @@
+animation
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [анимация] (* <- lang_ru;; *);
+    [animation] (* <- lang_en;; *);
+  => nrel_idtf:
+    [мультипликация] (* <- lang_ru;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (анимация)] (* <- lang_ru;; *);
+      [Def. (animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> cartoon;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="animation">Анимация</b></sc_element> - вид <b><sc_element sys_idtf="cinema">киноискусства</b></sc_element> и его произведение (<b><sc_element sys_idtf="cartoon">мультфильм</b></sc_element>), а также соответствующая технология.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="animation">Animation</b></sc_element> is the type of <b><sc_element sys_idtf="cinema">cinema</b></sc_element> and its work (<b><sc_element sys_idtf="cartoon">cartoon</b></sc_element>), as well as the corresponding technology.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (анимация)] (* <- lang_ru;; *);
+      [Exp. (animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animator;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Cинтетическое аудиовизуальное искусство, в основе которого лежит иллюзия оживления созданных <b><sc_element sys_idtf="animator">художником</b></sc_element> объёмных и плоских изображений или объектов предметно-реального мира, запечатлённых покадрово на кино- и видеоплёнке или на цифровых носителях.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [Synthetic audiovisual art, which is based on the illusion of revitalization of volumetric and flat images created by the <b><sc_element sys_idtf="animator">artist</b></sc_element> or objects of the subject-real world, captured frame by frame on film and videotape or on digital media.](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (анимация)] (* <- lang_ru;; *);
+      [Pic. (animation)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/animation.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
