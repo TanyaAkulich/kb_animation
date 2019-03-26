@@ -1,0 +1,40 @@
+sitcom
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [ситуационная комедия] (* <- lang_ru;; *);
+    [sitcom] (* <- lang_en;; *);
+  => nrel_idtf:
+    [ситком] (* <- lang_ru;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (ситуационная комедия)] (* <- lang_ru;; *);
+      [Def. (sitcom)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> genre;;
+      -> satire;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="sitcom">Ситуационная комедия</b></sc_element> - это разновидность <b><sc_element sys_idtf="comedy">комедийных</b></sc_element> радио- и <b><sc_element sys_idtf="television">телепрограмм</b></sc_element>, с постоянными основными <b><sc_element sys_idtf="character">персонажами</b></sc_element> и местом действи.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="sitcom">Сompater animation</b></sc_element> is a variety of <b><sc_element sys_idtf="comedy">comedy</b></sc_element> radio and <b><sc_element sys_idtf="television">television</b></sc_element> programs, with permanent main <b><sc_element sys_idtf="character">characters</b></sc_element> and a scene.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (ситуационная комедия)] (* <- lang_ru;; *);
+      [Exp. (sitcom)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> sitcom;;
+      -> cinema;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Традиционно в <b><sc_element sys_idtf="sitcom">ситкомах</b></sc_element> серии имеют очень слабую связь между собой. <b><sc_element sys_idtf="character">Персонажи</b></sc_element> практически не меняются на протяжении всего <b><sc_element sys_idtf="srties">сериала</b></sc_element>. Большинство ситкомов придерживаются этого формата.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [Traditionally, <b><sc_element sys_idtf="sitcom">sitcoms</b></sc_element> of the series have a very weak connection with each other. <b><sc_element sys_idtf="Characters">Персонажи</b></sc_element> practically do not change throughout the <b><sc_element sys_idtf="srties">series</b></sc_element>. Most sitcoms adhere to this format.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
