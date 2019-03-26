@@ -1,0 +1,59 @@
+animator
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [художник-мультипликатор] (* <- lang_ru;; *);
+    [animator] (* <- lang_en;; *);
+  => nrel_idtf:
+    [мультипликатор] (* <- lang_ru;; *);
+    [аниматор] (* <- lang_ru;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (художник-мультипликатор)] (* <- lang_ru;; *);
+      [Def. (animator)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> film;;
+      -> animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="animator">Художник-мультипликатор</b></sc_element> - это художник <b><sc_element sys_idtf="animation">мультипликационного кино</b></sc_element>.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="animator">Animator</b></sc_element> is an artist <b><sc_element sys_idtf="animation">animated</b></sc_element> movie.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (художник-мультипликатор)] (* <- lang_ru;; *);
+      [Exp. (animator)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> cartoon;;
+      -> traditional_animation;;
+      -> stop_motion_animation;;
+      -> computer_animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [При создании <b><sc_element sys_idtf="animation">анимации</b></sc_element> используются разнообразные технологии, включая <b><sc_element sys_idtf="traditional_animation">рисунки</b></sc_element>, <b><sc_element sys_idtf="stop_motion_animation">кукольную мультипликацию</b></sc_element>, <b><sc_element sys_idtf="computer_animation">трёхмерную графику</b></sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [When creating <b><sc_element sys_idtf="animation">animation</b></sc_element>, various technologies are used, including <b><sc_element sys_idtf="traditional_animation">drawings</b></sc_element>, <b><sc_element sys_idtf="stop_motion_animation">doll animation</b></sc_element>, <b><sc_element sys_idtf="computer_animation">three-dimensional graphics</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
+
+  <= nrel_used_technologies_by_animators:... (*
+    -> traditional_animation;;
+    -> stop_motion_animation;;
+    -> computer_animation;;
+  *);
+
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (художник-мультипликатор)] (* <- lang_ru;; *);
+      [Pic. (animator)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/animator.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
