@@ -1,0 +1,38 @@
+comedy
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [комедия] (* <- lang_ru;; *);
+    [comedy] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (комедия)] (* <- lang_ru;; *);
+      [Def. (comedy)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> film;;
+      -> genre;;
+      -> satire;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="comedy">комедия</b></sc_element> - это <b><sc_element sys_idtf="genre">жанр</b></sc_element> художественного произведения, характеризующийся юмористическим или <b><sc_element sys_idtf="satire">сатирическим</b></sc_element> подходом, и также вид драмы, в котором специфически разрешается момент действенного конфликта или борьбы.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="comedy">Сompater animation</b></sc_element> is a <b><sc_element sys_idtf="genre">genre</b></sc_element> of artwork characterized by a humorous or <b><sc_element sys_idtf="satire">satirical</b></sc_element> approach, and also a kind of drama that specifically resolves the moment of effective conflict or struggle.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (комедия)] (* <- lang_ru;; *);
+      [Exp. (comedy)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> comedy;;
+      -> cinema;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [В наши дни <b><sc_element sys_idtf="comedy">комедией</b></sc_element> являются многие <b><sc_element sys_idtf="film">кинофильмы</b></sc_element>, построенные исключительно на внешнем комизме, <b><sc_element sys_idtf="sitcom">комизме положений</b></sc_element>, в которые персонажи попадают в процессе развития действия.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [Nowadays, many <b><sc_element sys_idtf="films">comedy films</b></sc_element> are built entirely on an external <b><sc_element sys_idtf="comedy">comic</b></sc_element>, a comic on which the characters fall into the process of developing an <b><sc_element sys_idtf="sitcom">action</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
