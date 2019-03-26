@@ -1,0 +1,43 @@
+cartoon
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [мультфильм] (* <- lang_ru;; *);
+    [cartoon] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (мультфильм)] (* <- lang_ru;; *);
+      [Def. (cartoon)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> film;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="cartoon">Мультфильм</b></sc_element> - это <b><sc_element sys_idtf="film">фильм</b></sc_element>, выполненный при помощи средств покадровой отрисовки (включая 3D-моделирование) и предназначенный для демонстрации в кинотеатре, трансляции по телевидению, просмотра на экране компьютера и других электронных устройства.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="cartoon">cartoon</b></sc_element> is a <b><sc_element sys_idtf="film">film</b></sc_element> made with the help of frame-by-frame rendering (including 3D-modeling) and intended for demonstration in the cinema, broadcast on television, watching on a computer screen and other electronic devices.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <= nrel_way_of_creating:... (*
+    -> plasticine;;
+    -> painted;;
+    -> puppet;;
+    -> computer;;
+    -> sand;;
+  *);
+
+  <= nrel_duration:... (*
+    -> full_length_cartoons;;
+    -> short_cartoons;;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (мультфильм)] (* <- lang_ru;; *);
+      [Pic. (cartoon)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/cartoon.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
