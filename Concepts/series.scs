@@ -1,0 +1,34 @@
+series
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [сериал] (* <- lang_ru;; *);
+    [series] (* <- lang_en;; *);
+
+  => nrel_idtf:
+    [TV series] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (сериал)] (* <- lang_ru;; *);
+      [Def. (series)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> television;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="series">Сериал</b></sc_element> - это разновидность <b><sc_element sys_idtf="television">телевизионных</b></sc_element> и радио- передач, которые состоят из отдельных, последовательных эпизодо.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="series">Series</b></sc_element> is a type of <b><sc_element sys_idtf="television">television</b></sc_element> and radio programs that consist of separate, consecutive episodes.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (сериал)] (* <- lang_ru;; *);
+      [Exp. (series)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Целью любого сериала является привлечь к экранам на длительный период зрителя и удерживать его интерес к продукту эпизод за эпизодом.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The goal of any series is to attract the viewer to the screens for a long period and to keep his interest in the product episode by episode..](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
