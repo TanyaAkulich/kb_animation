@@ -19,11 +19,11 @@ cartoon
     *);;
   *);
 
-  <= nrel_way_of_creating:... (*
+  <= nrel_way_of_creating_animation:... (*
     -> plasticine;;
-    -> painted;;
-    -> puppet;;
-    -> computer;;
+    -> traditional_animation;;
+    -> stop_motion_animation;;
+    -> computer_animation;;
     -> sand;;
   *);
 
