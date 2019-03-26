@@ -1,0 +1,60 @@
+cinema
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [фильм] (* <- lang_ru;; *);
+    [cinema] (* <- lang_en;; *);
+
+  => nrel_idtf:
+    [кино] (* <- lang_ru;; *);
+    [кинофильм] (* <- lang_ru;; *);
+    [телефильм] (* <- lang_ru;; *);
+    [кинокартина] (* <- lang_ru;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (фильм)] (* <- lang_ru;; *);
+      [Def. (cinema)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> genre;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="cinema">Фильм</b></sc_element> - это совокупность движущихся изображений (монтажных кадров), связанных единым сюжетом.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="ilm">cinema</b></sc_element> is a set of moving images (editing frames) connected by a single plot.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (фильм)] (* <- lang_ru;; *);
+      [Exp. (cinema)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="cinema">Фильм</b></sc_element> — последовательность фотографических изображений, снятых с определённой частотой на фотоплёнке с помощью специального устройства (кинокамеры) и предназначенных для проекции (с той же частотой) на экран.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [A <b><sc_element sys_idtf="Сinema">cinema</b></sc_element> is a sequence of photographic images taken at a certain frequency on a photographic cinema with the help of a special device (camera) and intended for projection (with the same frequency) onto the screen.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <= nrel_duration:... (*
+    -> full_length_cartoons;;
+    -> short_cartoons;;
+    => nrel_main_idtf:
+      [Разбиение по продолжительности](* <- lang_ru;; *);
+      [Subdividing by duration](* <- lang_en;; *);;
+  *);
+
+  <= nrel_number_of_series:... (*
+    -> series;;
+    => nrel_main_idtf:
+      [Разбиение по количеству серий](* <- lang_ru;; *);
+      [Subdividing by number of series](* <- lang_en;; *);;
+  *);
+
+  <= nrel_number_by_major_genres_of_drama:... (*
+    -> comedy;;
+    -> tragicomedy;;
+    => nrel_main_idtf:
+      [Разбиение по основным жанрам](* <- lang_ru;; *);
+      [Subdividing by major genres of drama](* <- lang_en;; *);;
+  *);;
