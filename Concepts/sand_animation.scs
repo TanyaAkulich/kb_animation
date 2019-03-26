@@ -1,0 +1,45 @@
+sand_animation
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [песочная анимация] (* <- lang_ru;; *);
+    [sand animation] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (песочная анимация)] (* <- lang_ru;; *);
+      [Def. (sand animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="sand_animation">Песочная анимация</b></sc_element> - это одино из направлений изобразительного искусства, а также технология создания <b><sc_element sys_idtf="animation">мультипликационных</b></sc_element> сюжетов.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="sand_animation">Sand animation</b></sc_element> is the direction of visual art, as well as the technology of creating <b><sc_element sys_idtf="animation">animated</b></sc_element> scenes.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (песочная анимация)] (* <- lang_ru;; *);
+      [Exp. (sand animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> comedy;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Метод позволяет делать не только <b><sc_element sys_idtf="cartoons">мультипликационные фильмы</b></sc_element>, но и шоу-номера для «живого» зрительного зала.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The method allows you to make not only <b><sc_element sys_idtf="cartoons">animated films</b></sc_element>, but also show rooms for the "live" auditorium.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (песочная анимация)] (* <- lang_ru;; *);
+      [Pic. (sand_animation)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/sand_animation.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
