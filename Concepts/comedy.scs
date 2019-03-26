@@ -11,7 +11,7 @@ comedy
       [Опр. (комедия)] (* <- lang_ru;; *);
       [Def. (comedy)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
-      -> film;;
+      -> cinema;;
       -> genre;;
       -> satire;;
     *);;
@@ -32,7 +32,7 @@ comedy
       -> cinema;;
     *);;
     <= nrel_sc_text_translation: ... (*
-      -> [В наши дни <b><sc_element sys_idtf="comedy">комедией</b></sc_element> являются многие <b><sc_element sys_idtf="film">кинофильмы</b></sc_element>, построенные исключительно на внешнем комизме, <b><sc_element sys_idtf="sitcom">комизме положений</b></sc_element>, в которые персонажи попадают в процессе развития действия.](* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [Nowadays, many <b><sc_element sys_idtf="films">comedy films</b></sc_element> are built entirely on an external <b><sc_element sys_idtf="comedy">comic</b></sc_element>, a comic on which the characters fall into the process of developing an <b><sc_element sys_idtf="sitcom">action</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [В наши дни <b><sc_element sys_idtf="comedy">комедией</b></sc_element> являются многие <b><sc_element sys_idtf="cinema">кинофильмы</b></sc_element>, построенные исключительно на внешнем комизме, <b><sc_element sys_idtf="sitcom">комизме положений</b></sc_element>, в которые персонажи попадают в процессе развития действия.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [Nowadays, many <b><sc_element sys_idtf="cinemas">comedy cinemas</b></sc_element> are built entirely on an external <b><sc_element sys_idtf="comedy">comic</b></sc_element>, a comic on which the characters fall into the process of developing an <b><sc_element sys_idtf="sitcom">action</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);;

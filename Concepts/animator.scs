@@ -14,7 +14,7 @@ animator
       [Опр. (художник-мультипликатор)] (* <- lang_ru;; *);
       [Def. (animator)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
-      -> film;;
+      -> cinema;;
       -> animation;;
     *);;
     <= nrel_sc_text_translation: ... (*

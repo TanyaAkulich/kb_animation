@@ -11,11 +11,11 @@ cartoon
       [Опр. (мультфильм)] (* <- lang_ru;; *);
       [Def. (cartoon)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
-      -> film;;
+      -> cinema;;
     *);;
     <= nrel_sc_text_translation: ... (*
-      -> [<b><sc_element sys_idtf="cartoon">Мультфильм</b></sc_element> - это <b><sc_element sys_idtf="film">фильм</b></sc_element>, выполненный при помощи средств покадровой отрисовки (включая 3D-моделирование) и предназначенный для демонстрации в кинотеатре, трансляции по телевидению, просмотра на экране компьютера и других электронных устройства.] (* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [The <b><sc_element sys_idtf="cartoon">cartoon</b></sc_element> is a <b><sc_element sys_idtf="film">film</b></sc_element> made with the help of frame-by-frame rendering (including 3D-modeling) and intended for demonstration in the cinema, broadcast on television, watching on a computer screen and other electronic devices.](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="cartoon">Мультфильм</b></sc_element> - это <b><sc_element sys_idtf="cinema">фильм</b></sc_element>, выполненный при помощи средств покадровой отрисовки (включая 3D-моделирование) и предназначенный для демонстрации в кинотеатре, трансляции по телевидению, просмотра на экране компьютера и других электронных устройства.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="cartoon">cartoon</b></sc_element> is a <b><sc_element sys_idtf="cinema">cinema</b></sc_element> made with the help of frame-by-frame rendering (including 3D-modeling) and intended for demonstration in the cinema, broadcast on television, watching on a computer screen and other electronic devices.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);
 
@@ -34,8 +34,8 @@ cartoon
     -> full_length_cartoons;;
     -> short_cartoons;;
     => nrel_main_idtf:
-      [Разбиение по продолжительности анимации](* <- lang_ru;; *);
-      [Subdividing by duration animation](* <- lang_en;; *);;
+      [Разбиение по продолжительности](* <- lang_ru;; *);
+      [Subdividing by duration](* <- lang_en;; *);;
   *);
 
   <- rrel_key_sc_element:... (*
