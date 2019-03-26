@@ -1,0 +1,50 @@
+computer_animation
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [компьютерная анимация] (* <- lang_ru;; *);
+    [computer animation] (* <- lang_en;; *);
+  => nrel_idtf:
+    [classical animation] (* <- lang_en;; *);
+    [cel animation] (* <- lang_en;; *);
+    [hand-drawn animation] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (компьютерная анимация)] (* <- lang_ru;; *);
+      [Def. (computer animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="computer_animation">Компьютерная анимация</b></sc_element> - это твид <b><sc_element sys_idtf="animation">мультипликации</b></sc_element>, создаваемый при помощи компьютера.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="computer_animation">Сompater animation</b></sc_element> is a computer generated type of <b><sc_element sys_idtf="animation">animation</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (компьютерная анимация)] (* <- lang_ru;; *);
+      [Exp. (computer animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> computer_animation;;
+      -> cinema;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="computer_animation">Компьютерная анимация</b></sc_element> подразумевает только движущиеся изображения.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="computer_animation">Сompater animation</b></sc_element> means moving image only.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (компьютерная анимация)] (* <- lang_ru;; *);
+      [Pic. (computer_animation)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/computer_animation.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
