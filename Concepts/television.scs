@@ -1,0 +1,34 @@
+television
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [телевидение] (* <- lang_ru;; *);
+    [television] (* <- lang_en;; *);
+
+  => nrel_idtf:
+    [TV] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (телевидение)] (* <- lang_ru;; *);
+      [Def. (television)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> television;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="television">Телевидение</b></sc_element> - это технология электросвязи, предназначенная для передачи на расстояние движущегося изображения.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="television">television</b></sc_element> is a telecommunication technology for transmitting a moving image.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (телевидение)] (* <- lang_ru;; *);
+      [Exp. (television)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Со второй половины XX века <b><sc_element sys_idtf="television">телевидение</b></sc_element> стало наиболее влиятельным средством массовой информации, пригодным для развлечения, образования, передачи новостей и рекламы.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [Since the second half of the 20th century,  <b><sc_element sys_idtf="television">television</b></sc_element> has become the most influential mass media, suitable for entertainment, education, news and advertising.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;

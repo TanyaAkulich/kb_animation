@@ -1,0 +1,22 @@
+satire
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [Сатира] (* <- lang_ru;; *);
+    [satire] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (Сатира)] (* <- lang_ru;; *);
+      [Def. (satire)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> animation;;
+      -> comic;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="satire">Сатира</b></sc_element> - это резкое проявление <b><sc_element sys_idtf="comedy">комического</b></sc_element> в искусстве, представляющее собой поэтическое унизительное обличение явлений при помощи различных комических средств: сарказма, иронии, гиперболы, гротеска, аллегории, пародии и др.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="satire">satire</b></sc_element> is a a sharp manifestation of the <b><sc_element sys_idtf="comedy">comic</b></sc_element> in art, which is a poetic, humiliating denunciation of phenomena with the help of various comic means: sarcasm, irony, hyperbole, grotesque, allegory, parody, etc.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;

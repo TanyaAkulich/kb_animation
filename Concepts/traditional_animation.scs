@@ -18,7 +18,7 @@ traditional_animation
       -> animation;;
     *);;
     <= nrel_sc_text_translation: ... (*
-      -> [<b><sc_element sys_idtf="traditional_animation">традиционная анимация</b></sc_element> - это техника <b><sc_element sys_idtf="animation">анимации</b></sc_element>, в которой каждый кадр рисуется от руки на физическом носителе.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="traditional_animation">Традиционная анимация</b></sc_element> - это техника <b><sc_element sys_idtf="animation">анимации</b></sc_element>, в которой каждый кадр рисуется от руки на физическом носителе.] (* <- lang_ru;; => nrel_format: format_html;; *);;
       -> [The <b><sc_element sys_idtf="traditional_animation">Traditional animation</b></sc_element> is an <b><sc_element sys_idtf="animation">animation</b></sc_element> technique in which each frame is drawn by hand on a physical medium.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);

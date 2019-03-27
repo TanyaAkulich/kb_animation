@@ -1,0 +1,44 @@
+cartoon_network
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [Cartoon Network] (* <- lang_en;; *);
+  => nrel_idtf:
+    [CN] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Def. (Cartoon Network)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> cartoon;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="cartoon_network">Cartoon Network</b></sc_element> - иамериканский <b><sc_element sys_idtf="cartoon">мультипликационный</b></sc_element> <b><sc_element sys_idtf="television">телеканал</b></sc_element>, в настоящее время являющийся одним из крупнейших в мире телеканалов для детской аудитории.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="cartoon_network">Cartoon Network</b></sc_element> is American <b><sc_element sys_idtf="cartoon">animated</b></sc_element> <b><sc_element sys_idtf="television">television</b></sc_element> channel, currently one of the world's largest television channels for children's audiences.](* <- lang_en;; => nrel_format: format_html;; *);;
+
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (Cartoon Network)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animator;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Оригинальный <b><sc_element sys_idtf="cartoon_network">Cartoon Network</b></sc_element> является не только детским <b><sc_element sys_idtf="television">каналом</b></sc_element>: во время ночного эфира вещается Adult Swim - блок <b><sc_element sys_idtf="cartoon">мультсериалов</b></sc_element> для более взрослой аудитории.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [The original <b><sc_element sys_idtf="cartoon_network">Cartoon Network</b></sc_element> is not only a children's <b><sc_element sys_idtf="television">channel</b></sc_element>: Adult Swim is broadcast during the night air - a block of <b><sc_element sys_idtf="cartoon">animated series</b></sc_element> for a more adult audience.](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Cartoon Network)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/cartoon_network.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;

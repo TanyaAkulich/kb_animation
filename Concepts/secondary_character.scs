@@ -1,0 +1,23 @@
+secondary_character
+  <- sc_node_not_relation;
+
+  => nrel_secondary_character_idtf:
+    [второстепенный персонаж] (* <- lang_ru;; *);
+    [secondary character] (* <- lang_en;; *);
+
+  <= nrel_inclusion: character;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_secondary_idtf:
+      [Опр. (второстепенный персонаж)] (* <- lang_ru;; *);
+      [Def. (secondary_character)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="secondary_character">Второстепенный персонаж</b></sc_element> - <b><sc_element sys_idtf="character">персонаж</b></sc_element>, не являющийся <b><sc_element sys_idtf="main_character">главным действующим лицом</b></sc_element> и несущий второстепенную смысловую нагрузку.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="secondary_character">Secondary character</b></sc_element> is a <b><sc_element sys_idtf="character">character</b></sc_element> who is not <b><sc_element sys_idtf="main_character">the main character</b></sc_element> and carries a secondary meaning.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;

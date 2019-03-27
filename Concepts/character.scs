@@ -1,0 +1,44 @@
+character
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [персонаж] (* <- lang_ru;; *);
+    [character] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (персонаж)] (* <- lang_ru;; *);
+      [Def. (character)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="character">Персонаж</b></sc_element> - это одействующее лицо спектакля, <b><sc_element sys_idtf="cinema">кинофильма</b></sc_element>, книги, игры и т. п.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="character">Character</b></sc_element> is a the protagonist of the play, <b><sc_element sys_idtf="cinema">movie</b></sc_element>, book, game, etc.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (персонаж)] (* <- lang_ru;; *);
+      [Exp. (character)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> cinema;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="character">Персонажи</b></sc_element> могут быть полностью вымышленными или взятыми из реальной жизни (истории). Персонажами могут быть люди, животные, сверхъестественные, мифические, божественные существа или персонифицированные абстрактные сущности.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="character">сharacters</b></sc_element> can be completely fictional or taken from real life (stories). Characters can be people, animals, supernatural, mythical, divine beings, or personified abstract entities.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <= nrel_role:... (*
+    -> main_character;;
+    -> secondary_character;;
+    => nrel_main_idtf:
+      [Разбиение по роли](* <- lang_ru;; *);
+      [Subdividing by role](* <- lang_en;; *);;
+  *);;

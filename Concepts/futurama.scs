@@ -1,0 +1,47 @@
+futurama
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [Футурама] (* <- lang_ru;; *);
+    [Futurama] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Def. (Футурама)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> cartoon;;
+      -> animation;;
+      -> animator;;
+      -> television;;
+      -> sitcom;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="futurama">Футурама</b></sc_element> - американский <b><sc_element sys_idtf="science_fiction">научно-фантастический</b></sc_element> <b><sc_element sys_idtf="satire">сатирический</b></sc_element> <b><sc_element sys_idtf="cartoon">мультсериал</b></sc_element>, созданный в студии «20th Century Fox» Мэттом Грейнингом и Дэвидом Коэном, авторами мультсериала <b><sc_element sys_idtf="simpsons">«Симпсоны»</b></sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="futurama">Futurama</b></sc_element> is American <b><sc_element sys_idtf="science_fiction">sci-fi</b></sc_element> <b><sc_element sys_idtf="satire">satirical</b></sc_element> <b><sc_element sys_idtf="cartoon">animated series</b></sc_element> created by 20th Century Fox by Matt Graing and David Cohen, the authors of the animated television series <b><sc_element sys_idtf="simpsons">The Simpsons</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (Футурама)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animator;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [В большинстве серий действие сериала происходит в Новом Нью-Йорке в XXXI веке. Использование будущего времени позволяло авторам шоу вносить в него идеи и события из популярной фантастики XX века.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [In most episodes, the action takes place in New York in the XXXI century. The use of future tense allowed the authors of the show to bring in ideas and events from popular fiction of the 20th century.](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Футурама)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/futurama.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;

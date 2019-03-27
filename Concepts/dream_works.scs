@@ -1,0 +1,42 @@
+dream_works
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [DreamWorks] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Def. (DreamWorks)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> cartoon;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="dream_works">DreamWorks</b></sc_element> - известная кинокомпания США, занимающаяся разработкой, продюсированием и прокатом <b><sc_element sys_idtf="cinema">фильмов</b></sc_element>, <b><sc_element sys_idtf="cinema">cartoon</b></sc_element>, видеоигр и телепрограмм.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="dream_works">DreamWorks</b></sc_element> is famous US film company engaged in the development, production and rental of <b><sc_element sys_idtf="cinema">films</b></sc_element>, <b><sc_element sys_idtf="cartoon">cartoons</b></sc_element>, video games and television programs.](* <- lang_en;; => nrel_format: format_html;; *);;
+
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (DreamWorks)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animator;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Наиболее прибыльным проектом <b><sc_element sys_idtf="dream_works">DreamWorks</b></sc_element является «Шрек».](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [The most profitable by sys_idtf="dream_works">DreamWorks</b></sc_element> project is "Shrek".](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (DreamWorks)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/dream_works.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;

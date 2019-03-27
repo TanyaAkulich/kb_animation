@@ -1,0 +1,23 @@
+main_character
+  <- sc_node_not_relation;
+
+  => nrel_main_character_idtf:
+    [главный персонаж] (* <- lang_ru;; *);
+    [main character] (* <- lang_en;; *);
+
+  <= nrel_inclusion: character;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (главный персонаж)] (* <- lang_ru;; *);
+      [Def. (main character)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="main_character">Главный персонаж</b></sc_element> - главное действующее лицо.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="main_character">Main character</b></sc_element> is a the protagonist.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
