@@ -1,0 +1,24 @@
+fry_philip
+  <- character;
+
+  => nrel_first_appearance:
+    ["Space Pilot 3000" (1999)] (* <- lang_en;; *);;
+
+  => nrel_last_appearance:
+    ["Dreamland Falls" (Disenchantment, 2018)] (* <- lang_en;; *);;
+
+  => nrel_family_member: hubert_farnsworth;
+  => nrel_spouse: leela_turanga;
+
+  => nrel_main_idtf:
+    [Филип Дж. Фрай] (* <- lang_ru;; *);
+    [Philip J. Fry] (* <- lang_en;; *);;
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Футурама)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/david_cohen.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
