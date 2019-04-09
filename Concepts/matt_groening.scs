@@ -1,0 +1,5 @@
+matt_groening
+  <- person;
+  => nrel_main_idtf:
+    [matt_groening'] (* <- lang_ru;; *);
+    [matt_groening'] (* <- lang_en;; *);;

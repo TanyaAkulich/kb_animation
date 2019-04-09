@@ -1,10 +1,24 @@
 futurama
-  <- sc_node_not_relation;
+  <- animation;
 
   <- science_fiction;
   <- satire;
   <- cartoon;
   <- black_comedy;
+
+  -> rrel_author: matt_groening;
+  -> rrel_author: david_cohen;
+
+  -> nrel_number_of_seasons: 7 (* <- number;; *);
+  -> nrel_number_of_episodes: 140 (* <- number;; *);
+
+  -> rrel_main_character: fry_philip;
+  -> rrel_main_character: leela_turanga;
+  -> rrel_main_character: bender_bending_rodriguez;
+  -> rrel_main_character: hubert_farnsworth;
+  -> rrel_main_character: hermes_conrad;
+  -> rrel_main_character: john_zoidberg;
+  -> rrel_main_character: amy_wong;
 
   => nrel_main_idtf:
     [футурама] (* <- lang_ru;; *);
