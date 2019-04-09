@@ -1,4 +1,4 @@
-leela_turanga
+hubert_farnsworth
   <- character;
 
   => nrel_first_appearance:
@@ -11,14 +11,14 @@ leela_turanga
   => nrel_spouse: fry_philip;
 
   => nrel_main_idtf:
-    [Туранга Лила] (* <- lang_ru;; *);
-    [Turanga Leela] (* <- lang_en;; *);
+    [Хьюберт Дж. Фарнсворт] (* <- lang_ru;; *);
+    [Hubert J. Farnsworth] (* <- lang_en;; *);
 
   <- rrel_key_sc_element:... (*
     <- illustration;;
     => nrel_main_idtf:
-      [Pic. (Turanga Leela)] (* <- lang_en;; *);;
+      [Pic. (Хьюберт Дж. Фарнсворт)] (* <- lang_en;; *);;
     <= nrel_sc_text_translation: ... (*
-      -> "file://images/leela_turanga.png" (* => nrel_format: format_png;; *);;
+      -> "file://images/hubert_farnsworth.png" (* => nrel_format: format_png;; *);;
     *);;
   *);;

@@ -2,7 +2,7 @@ matt_groening
   <- animator;
   => nrel_main_idtf:
     [Мэтт Грейнинг] (* <- lang_ru;; *);
-    [Matt Groening] (* <- lang_en;; *);;
+    [Matt Groening] (* <- lang_en;; *);
 
   <- rrel_key_sc_element:... (*
     <- illustration;;

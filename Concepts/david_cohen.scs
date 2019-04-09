@@ -2,7 +2,7 @@ david_cohen
   <- person;
   => nrel_main_idtf:
     [Дэвид Сэмюэл Коэн] (* <- lang_ru;; *);
-    [David Samuel Cohen] (* <- lang_en;; *);;
+    [David Samuel Cohen] (* <- lang_en;; *);
 
   <- rrel_key_sc_element:... (*
     <- illustration;;

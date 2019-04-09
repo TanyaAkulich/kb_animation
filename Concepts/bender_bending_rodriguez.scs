@@ -1,4 +1,4 @@
-fry_philip
+bender_bending_rodriguez
   <- character;
 
   => nrel_first_appearance:
@@ -7,18 +7,15 @@ fry_philip
   => nrel_last_appearance:
     ["Dreamland Falls" (Disenchantment, 2018)] (* <- lang_en;; *);
 
-  => nrel_family_member: hubert_farnsworth;
-  => nrel_spouse: leela_turanga;
-
   => nrel_main_idtf:
-    [Филип Дж. Фрай] (* <- lang_ru;; *);
-    [Philip J. Fry] (* <- lang_en;; *);
+    [Бендер Сгибатель Родригес] (* <- lang_ru;; *);
+    [Bender Bending Rodríguez] (* <- lang_en;; *);
 
   <- rrel_key_sc_element:... (*
     <- illustration;;
     => nrel_main_idtf:
-      [Pic. (Филип Дж. Фрай)] (* <- lang_en;; *);;
+      [Pic. (Бендер Сгибатель Родригес)] (* <- lang_en;; *);;
     <= nrel_sc_text_translation: ... (*
-      -> "file://images/fry_philip.png" (* => nrel_format: format_png;; *);;
+      -> "file://images/bender_bending_rodriguez.png" (* => nrel_format: format_png;; *);;
     *);;
   *);;
