@@ -1,5 +1,5 @@
 futurama
-  <- animation;
+  <- series;
 
   <- science_fiction;
   <- satire;
@@ -9,8 +9,8 @@ futurama
   -> rrel_author: matt_groening;
   -> rrel_author: david_cohen;
 
-  -> nrel_number_of_seasons: 7 (* <- number;; *);
-  -> nrel_number_of_episodes: 140 (* <- number;; *);
+  -> rrel_number_of_seasons: 7 (* <- number;; *);
+  -> rrel_number_of_episodes: 140 (* <- number;; *);
 
   -> rrel_main_character: fry_philip;
   -> rrel_main_character: leela_turanga;

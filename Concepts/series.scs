@@ -1,5 +1,6 @@
 series
   <- sc_node_not_relation;
+  <- animation;
 
   => nrel_main_idtf:
     [сериал] (* <- lang_ru;; *);

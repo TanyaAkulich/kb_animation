@@ -1,0 +1,23 @@
+rrel_number_of_seasons
+  <- sc_node_role_relation;
+  <- number;
+
+  => nrel_main_idtf:
+    [количество сезонов'] (* <- lang_ru;; *);
+    [number of seasons'] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (Количество сезонов)] (* <- lang_ru;; *);
+      [Def. (Number of seasons)] (* <- lang_en;; *);;
+
+    <= nrel_using_constants: ... (*
+      -> series;;
+    *);;
+
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="rrel_number_of_seasons">Количество сезонов</b></sc_element> - это общее количество наборов выпущенных друг за другом без перерыва эпизодов <sc_element sys_idtf="television">телевизионного</sc_element> <sc_element sys_idtf="series">сериала</sc_element>, объединенных по определённому принципу.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="rrel_number_of_seasons">authorg</b></sc_element> is the total number of sets released one after the other without a break episodes of the <sc_element sys_idtf="television">television</sc_element> <sc_element sys_idtf="series">series</sc_element>, combined according to a certain principle.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
