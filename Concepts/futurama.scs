@@ -1,9 +1,14 @@
 futurama
   <- sc_node_not_relation;
 
+  <- science_fiction;
+  <- satire;
+  <- cartoon;
+  <- black_comedy;
+
   => nrel_main_idtf:
-    [Футурама] (* <- lang_ru;; *);
-    [Futurama] (* <- lang_en;; *);
+    [футурама] (* <- lang_ru;; *);
+    [futurama] (* <- lang_en;; *);
 
   <- rrel_key_sc_element: ... (*
     <- definition;;

@@ -1,0 +1,22 @@
+rrel_author
+  <- sc_node_role_relation;
+
+  => nrel_main_idtf:
+    [автор'] (* <- lang_ru;; *);
+    [author'] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (Автор)] (* <- lang_ru;; *);
+      [Def. (Author)] (* <- lang_en;; *);;
+
+    <= nrel_using_constants: ... (*
+      -> animation;;
+    *);;
+
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="rrel_author">Автор</b></sc_element> - это создатель или инициатор любого письменного произведения, такого как книга или пьеса, и, таким образом, также является писателем.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="rrel_author">authorg</b></sc_element> is the creator or originator of any written work such as a book or play, and is thus also a writer.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
