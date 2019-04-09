@@ -1,5 +1,6 @@
 satire
   <- sc_node_not_relation;
+  <- genre;
 
   => nrel_main_idtf:
     [Сатира] (* <- lang_ru;; *);
@@ -10,6 +11,7 @@ satire
     => nrel_main_idtf:
       [Опр. (Сатира)] (* <- lang_ru;; *);
       [Def. (satire)] (* <- lang_en;; *);;
+
     <= nrel_using_constants: ... (*
       -> cinema;;
       -> animation;;

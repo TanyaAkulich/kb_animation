@@ -20,7 +20,6 @@ futurama
     <= nrel_sc_text_translation: ... (*
       -> [<b><sc_element sys_idtf="futurama">Футурама</b></sc_element> - американский <b><sc_element sys_idtf="science_fiction">научно-фантастический</b></sc_element> <b><sc_element sys_idtf="satire">сатирический</b></sc_element> <b><sc_element sys_idtf="cartoon">мультсериал</b></sc_element>, созданный в студии «20th Century Fox» Мэттом Грейнингом и Дэвидом Коэном, авторами мультсериала <b><sc_element sys_idtf="simpsons">«Симпсоны»</b></sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
       -> [<b><sc_element sys_idtf="futurama">Futurama</b></sc_element> is American <b><sc_element sys_idtf="science_fiction">sci-fi</b></sc_element> <b><sc_element sys_idtf="satire">satirical</b></sc_element> <b><sc_element sys_idtf="cartoon">animated series</b></sc_element> created by 20th Century Fox by Matt Graing and David Cohen, the authors of the animated television series <b><sc_element sys_idtf="simpsons">The Simpsons</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
-
     *);;
   *);
 

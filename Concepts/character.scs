@@ -33,12 +33,4 @@ character
       -> [<b><sc_element sys_idtf="character">Персонажи</b></sc_element> могут быть полностью вымышленными или взятыми из реальной жизни (истории). Персонажами могут быть люди, животные, сверхъестественные, мифические, божественные существа или персонифицированные абстрактные сущности.](* <- lang_ru;; => nrel_format: format_html;; *);;
       -> [The <b><sc_element sys_idtf="character">сharacters</b></sc_element> can be completely fictional or taken from real life (stories). Characters can be people, animals, supernatural, mythical, divine beings, or personified abstract entities.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
-  *);
-
-  <= nrel_role:... (*
-    -> main_character;;
-    -> secondary_character;;
-    => nrel_main_idtf:
-      [Разбиение по роли](* <- lang_ru;; *);
-      [Subdividing by role](* <- lang_en;; *);;
   *);;

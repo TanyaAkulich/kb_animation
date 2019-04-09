@@ -1,5 +1,6 @@
 comedy
   <- sc_node_not_relation;
+  <- genre;
 
   => nrel_main_idtf:
     [комедия] (* <- lang_ru;; *);
