@@ -1,0 +1,23 @@
+lisa_simpson
+  <- character;
+
+  => nrel_first_appearance:
+    ["Good Night" (1987)] (* <- lang_en;; *);
+
+  => nrel_family_member: maggie_simpson;
+  => nrel_family_member: bart_simpson;
+  => nrel_family_member: homer_simpson;
+  => nrel_family_member: marge_simpson;
+
+  => nrel_main_idtf:
+    [Лиза Симпсон] (* <- lang_ru;; *);
+    [Lisa Simpson] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Лиза Симпсон)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/lisa_simpson.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;

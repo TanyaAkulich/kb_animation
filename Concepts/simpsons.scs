@@ -1,5 +1,23 @@
 simpsons
-  <- sc_node_not_relation;
+  <- series;
+
+  <- sitcom;
+  <- satire;
+  <- black_comedy;
+  <- cartoon;
+  <- comedy;
+
+  -> rrel_author: matt_groening;
+
+  -> rrel_number_of_seasons: 30 (* <- number;; *);
+  -> rrel_number_of_episodes: 639 (* <- number;; *);
+
+  -> rrel_main_character: homer_simpson;
+  -> rrel_main_character: marge_simpson;
+  -> rrel_main_character: bart_simpson;
+  -> rrel_main_character: lisa_simpson;
+  -> rrel_main_character: maggie_simpson;
+
 
   => nrel_main_idtf:
     [Симпсоны] (* <- lang_ru;; *);
@@ -20,7 +38,6 @@ simpsons
     <= nrel_sc_text_translation: ... (*
       -> [<b><sc_element sys_idtf="simpsons">Симпсоны</b></sc_element> - американский <b><sc_element sys_idtf="cartoon">мультипликационный сериал</b></sc_element> в <b><sc_element sys_idtf="genre">жанре</b></sc_element> <b><sc_element sys_idtf="sitcom">ситуационной комедии</b></sc_element>, созданный <b><sc_element sys_idtf="animator">мультипликатором</b></sc_element> и карикатуристом Мэттом Грейнингом для <b><sc_element sys_idtf="television">телекомпании</b></sc_element> Fox Broadcasting Company.](* <- lang_ru;; => nrel_format: format_html;; *);;
       -> [<b><sc_element sys_idtf="simpsons">The Simpsons</b></sc_element> is American <b><sc_element sys_idtf="cartoon">animated series</b></sc_element> in the <b><sc_element sys_idtf="genre">genre</b></sc_element> of <b><sc_element sys_idtf="sitcom">situational comedy</b></sc_element>, created by the <b><sc_element sys_idtf="animator">cartoonist</b></sc_element> and cartoonist Matt Greing for Fox Broadcasting Company.](* <- lang_en;; => nrel_format: format_html;; *);;
-
     *);;
   *);
 
