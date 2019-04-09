@@ -1,0 +1,24 @@
+leela_turanga
+  <- character;
+
+  => nrel_first_appearance:
+    ["Space Pilot 3000" (1999)] (* <- lang_en;; *);;
+
+  => nrel_last_appearance:
+    [Futurama: Worlds of Tomorrow (2017)] (* <- lang_en;; *);;
+
+  => nrel_family_member: hubert_farnsworth;
+  => nrel_spouse: fry_philip;
+
+  => nrel_main_idtf:
+    [Туранга Лила] (* <- lang_ru;; *);
+    [Turanga Leela] (* <- lang_en;; *);;
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Turanga Leela)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/leela_turanga.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;

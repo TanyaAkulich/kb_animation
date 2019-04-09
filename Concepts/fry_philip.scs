@@ -17,8 +17,8 @@ fry_philip
   <- rrel_key_sc_element:... (*
     <- illustration;;
     => nrel_main_idtf:
-      [Pic. (Футурама)] (* <- lang_en;; *);;
+      [Pic. (Филип Дж. Фрай)] (* <- lang_en;; *);;
     <= nrel_sc_text_translation: ... (*
-      -> "file://images/david_cohen.png" (* => nrel_format: format_png;; *);;
+      -> "file://images/fry_philip.png" (* => nrel_format: format_png;; *);;
     *);;
   *);;
