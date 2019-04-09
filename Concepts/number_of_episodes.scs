@@ -1,0 +1,23 @@
+rrel_number_of_episodes
+  <- sc_node_role_relation;
+  <- number;
+
+  => nrel_main_idtf:
+    [количество эпизодов'] (* <- lang_ru;; *);
+    [number of episodes'] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (Количество эпизодов)] (* <- lang_ru;; *);
+      [Def. (Number of episodes)] (* <- lang_en;; *);;
+
+    <= nrel_using_constants: ... (*
+      -> series;;
+    *);;
+
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="rrel_number_of_episodes">Количество эпизодов</b></sc_element> - это общее количество cоставных частей сюжета произведения, имеющих самостоятельное повествовательное значение.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="rrel_number_of_episodes">authorg</b></sc_element> is the total number of the main parts of the plot of the work that have independent narrative significance.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
