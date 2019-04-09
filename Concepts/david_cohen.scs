@@ -1,14 +1,14 @@
-matt_groening
-  <- animator;
+david_cohen
+  <- person;
   => nrel_main_idtf:
-    [Мэтт Грейнинг] (* <- lang_ru;; *);
-    [Matt Groening] (* <- lang_en;; *);;
+    [Дэвид Сэмюэл Коэн] (* <- lang_ru;; *);
+    [David Samuel Cohen] (* <- lang_en;; *);;
 
   <- rrel_key_sc_element:... (*
     <- illustration;;
     => nrel_main_idtf:
       [Pic. (Футурама)] (* <- lang_en;; *);;
     <= nrel_sc_text_translation: ... (*
-      -> "file://images/matt_groening.png" (* => nrel_format: format_png;; *);;
+      -> "file://images/david_cohen.png" (* => nrel_format: format_png;; *);;
     *);;
   *);;

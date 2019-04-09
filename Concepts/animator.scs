@@ -1,5 +1,6 @@
 animator
   <- sc_node_not_relation;
+  <- person;
 
   => nrel_main_idtf:
     [художник-мультипликатор] (* <- lang_ru;; *);

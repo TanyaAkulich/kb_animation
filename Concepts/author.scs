@@ -1,5 +1,6 @@
 rrel_author
   <- sc_node_role_relation;
+  <- person;
 
   => nrel_main_idtf:
     [автор'] (* <- lang_ru;; *);
