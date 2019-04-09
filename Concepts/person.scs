@@ -1,0 +1,18 @@
+person
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [человек] (* <- lang_ru;; *);
+    [person] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (Человек)] (* <- lang_ru;; *);
+      [Def. (Person)] (* <- lang_en;; *);;
+
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="person">Человек</b></sc_element> - это живые разумные общественные существа, субъекты общественно-исторической деятельности и культуры.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="person">Person</b></sc_element> is the living rational social beings, subjects of socio-historical activities and culture.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
