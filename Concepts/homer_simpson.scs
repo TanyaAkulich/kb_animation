@@ -4,11 +4,11 @@ homer_simpson
   => nrel_first_appearance:
     ["Good Night" (1987)] (* <- lang_en;; *);
 
-  => nrel_family_member: bart_simpson;
-  => nrel_family_member: lisa_simpson;
-  => nrel_family_member: maggie_simpson;
+  <=> nrel_family_member: bart_simpson;
+  <=> nrel_family_member: lisa_simpson;
+  <=> nrel_family_member: maggie_simpson;
 
-  => nrel_spouse: marge_simpson;
+  <=> nrel_spouse: marge_simpson;
 
   => nrel_main_idtf:
     [Гомер Симпсон] (* <- lang_ru;; *);

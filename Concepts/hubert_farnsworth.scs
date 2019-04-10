@@ -7,8 +7,8 @@ hubert_farnsworth
   => nrel_last_appearance:
     [Futurama: Worlds of Tomorrow (2017)] (* <- lang_en;; *);
 
-  => nrel_family_member: hubert_farnsworth;
-  => nrel_spouse: fry_philip;
+  <=> nrel_family_member: hubert_farnsworth;
+  <=> nrel_spouse: fry_philip;
 
   => nrel_main_idtf:
     [Хьюберт Дж. Фарнсворт] (* <- lang_ru;; *);

@@ -1,0 +1,25 @@
+nrel_first_appearance
+  <- sc_node_relation;
+
+  => nrel_main_idtf:
+    [первое появление] (* <- lang_ru;; *);
+    [first appearance] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+
+    => nrel_main_idtf:
+      [Опр. (первое появление)] (* <- lang_ru;; *);
+      [Def. (first appearance)] (* <- lang_en;; *);;
+
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> animation;;
+      -> character;;
+    *);;
+
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="nrel_first_appearance">Первое появление</b></sc_element> в произведениях связано с первой проблемой в следствие которой впервые появляется <b><sc_element sys_idtf="character">персонаж</b></sc_element>.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [In stories with a long history, <b><sc_element sys_idtf="nrel_first_appearance">first appearance</b></sc_element> refers to the first issue to future a fiction <b><sc_element sys_idtf="character">character</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;

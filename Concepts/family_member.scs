@@ -1,0 +1,24 @@
+nrel_family_member
+  <- sc_node_relation;
+
+  => nrel_main_idtf:
+    [член семьи] (* <- lang_ru;; *);
+    [family member] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+
+    => nrel_main_idtf:
+      [Опр. (член семьи)] (* <- lang_ru;; *);
+      [Def. (family member)] (* <- lang_en;; *);;
+
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> character;;
+    *);;
+
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="nrel_family_member">Член семьи</b></sc_element> - <sc_element sys_idtf="character">персонаж</sc_element>, являющийся частью семьи, связанный общностью быта, взаимной моральной ответственностью и взаимопомощью.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="nrel_family_member">family member</b></sc_element> in the works is associated with the completion of the storyline for this <b><sc_element sys_idtf="character">character</b></sc_element>, for the <b><sc_element sys_idtf="rrel_main_character">main characters</b></sc_element> this is determined by the completion of the work.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;

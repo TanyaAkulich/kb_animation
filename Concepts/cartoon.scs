@@ -19,7 +19,7 @@ cartoon
     *);;
   *);
 
-  <= nrel_way_of_creating_animation:... (*
+  <= nrel_subdeviding:... (*
     -> plasticine;;
     -> traditional_animation;;
     -> stop_motion_animation;;
@@ -30,7 +30,7 @@ cartoon
       [Subdividing by creating animation](* <- lang_en;; *);;
   *);
 
-  <= nrel_duration:... (*
+  <= nrel_subdeviding: ... (*
     -> full_length_cartoons;;
     -> short_cartoons;;
     => nrel_main_idtf:

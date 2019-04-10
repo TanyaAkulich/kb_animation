@@ -42,7 +42,7 @@ animator
     *);;
   *);
 
-  <= nrel_used_technologies_by_animators:... (*
+  <= nrel_subdeviding:... (*
     -> traditional_animation;;
     -> stop_motion_animation;;
     -> computer_animation;;

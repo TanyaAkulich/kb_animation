@@ -36,7 +36,7 @@ cinema
     *);;
   *);
 
-  <= nrel_duration:... (*
+  <= nrel_subdeviding:... (*
     -> full_length_cartoons;;
     -> short_cartoons;;
     => nrel_main_idtf:
@@ -44,14 +44,14 @@ cinema
       [Subdividing by duration](* <- lang_en;; *);;
   *);
 
-  <= nrel_number_of_series:... (*
+  <= nrel_subdeviding:... (*
     -> series;;
     => nrel_main_idtf:
       [Разбиение по количеству серий](* <- lang_ru;; *);
       [Subdividing by number of series](* <- lang_en;; *);;
   *);
 
-  <= nrel_number_by_major_genres_of_drama:... (*
+  <= nrel_subdeviding:... (*
     -> comedy;;
     -> tragicomedy;;
     => nrel_main_idtf:

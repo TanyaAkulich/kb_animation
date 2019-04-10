@@ -7,8 +7,8 @@ fry_philip
   => nrel_last_appearance:
     ["Dreamland Falls" (Disenchantment, 2018)] (* <- lang_en;; *);
 
-  => nrel_family_member: hubert_farnsworth;
-  => nrel_spouse: leela_turanga;
+  <=> nrel_family_member: hubert_farnsworth;
+  <=> nrel_spouse: leela_turanga;
 
   => nrel_main_idtf:
     [Филип Дж. Фрай] (* <- lang_ru;; *);
