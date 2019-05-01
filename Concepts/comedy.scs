@@ -1,6 +1,5 @@
 comedy
   <- sc_node_not_relation;
-  <- genre;
 
   => nrel_main_idtf:
     [комедия] (* <- lang_ru;; *);
@@ -13,12 +12,12 @@ comedy
       [Def. (comedy)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
       -> cinema;;
-      -> genre;;
+      -> nrel_genre;;
       -> satire;;
     *);;
     <= nrel_sc_text_translation: ... (*
-      -> [<b><sc_element sys_idtf="comedy">комедия</b></sc_element> - это <b><sc_element sys_idtf="genre">жанр</b></sc_element> художественного произведения, характеризующийся юмористическим или <b><sc_element sys_idtf="satire">сатирическим</b></sc_element> подходом, и также вид драмы, в котором специфически разрешается момент действенного конфликта или борьбы.] (* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [The <b><sc_element sys_idtf="comedy">Сompater animation</b></sc_element> is a <b><sc_element sys_idtf="genre">genre</b></sc_element> of artwork characterized by a humorous or <b><sc_element sys_idtf="satire">satirical</b></sc_element> approach, and also a kind of drama that specifically resolves the moment of effective conflict or struggle.](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="comedy">комедия</b></sc_element> - это <b><sc_element sys_idtf="nrel_genre">жанр</b></sc_element> художественного произведения, характеризующийся юмористическим или <b><sc_element sys_idtf="satire">сатирическим</b></sc_element> подходом, и также вид драмы, в котором специфически разрешается момент действенного конфликта или борьбы.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="comedy">Сompater animation</b></sc_element> is a <b><sc_element sys_idtf="nrel_genre">genre</b></sc_element> of artwork characterized by a humorous or <b><sc_element sys_idtf="satire">satirical</b></sc_element> approach, and also a kind of drama that specifically resolves the moment of effective conflict or struggle.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);
 

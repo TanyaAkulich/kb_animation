@@ -1,5 +1,5 @@
-genre
-  <- sc_node_not_relation;
+nrel_genre
+  <- sc_node_norole_relation;
 
   => nrel_main_idtf:
     [жанр] (* <- lang_ru;; *);
@@ -15,8 +15,8 @@ genre
       -> animation;;
     *);;
     <= nrel_sc_text_translation: ... (*
-      -> [<b><sc_element sys_idtf="genre">Жанр</b></sc_element> - это общее понятие, отражающее наиболее существенные свойства и связи явлений мира искусства, совокупность формальных и содержательных особенностей произведения.] (* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [The <b><sc_element sys_idtf="genre">Genre</b></sc_element> is a general concept, a set of formal and meaningful works.](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="nrel_genre">Жанр</b></sc_element> - это общее понятие, отражающее наиболее существенные свойства и связи явлений мира искусства, совокупность формальных и содержательных особенностей произведения.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="nrel_genre">Genre</b></sc_element> is a general concept, a set of formal and meaningful works.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);
 
@@ -27,11 +27,10 @@ genre
       [Exp. (genre)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
       -> animation;;
-      -> genre;;
       -> cinema;;
     *);;
     <= nrel_sc_text_translation: ... (*
-      -> [<b><sc_element sys_idtf="genre">Жанры</b></sc_element> сформированы наборами условий; многие произведения используют несколько жанров посредством заимствования и объединения этих условий.](* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [The <b><sc_element sys_idtf="genre">Genres</b></sc_element> are formed by sets of conditions; many works use several genres by borrowing and combining these conditions.](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="nrel_genre">Жанры</b></sc_element> сформированы наборами условий; многие произведения используют несколько жанров посредством заимствования и объединения этих условий.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="nrel_genre">Genres</b></sc_element> are formed by sets of conditions; many works use several genres by borrowing and combining these conditions.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);;

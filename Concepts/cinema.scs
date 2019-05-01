@@ -17,7 +17,7 @@ cinema
       [Опр. (фильм)] (* <- lang_ru;; *);
       [Def. (cinema)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
-      -> genre;;
+      -> nrel_genre;;
     *);;
     <= nrel_sc_text_translation: ... (*
       -> [<b><sc_element sys_idtf="cinema">Фильм</b></sc_element> - это совокупность движущихся изображений (монтажных кадров), связанных единым сюжетом.] (* <- lang_ru;; => nrel_format: format_html;; *);;

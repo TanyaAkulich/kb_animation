@@ -1,11 +1,13 @@
 simpsons
   <- series;
 
-  <- sitcom;
-  <- satire;
-  <- black_comedy;
-  <- cartoon;
-  <- comedy;
+  => nrel_genre: .. (*
+    <- sitcom;
+      satire;
+      black_comedy;
+      cartoon;
+      comedy;;
+  *);
 
   -> rrel_author: matt_groening;
 

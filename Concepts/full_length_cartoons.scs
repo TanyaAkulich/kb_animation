@@ -14,7 +14,7 @@ full_length_cartoon
       [Опр. (фильм)] (* <- lang_ru;; *);
       [Def. (full-length film)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
-      -> genre;;
+      -> nrel_genre;;
     *);;
     <= nrel_sc_text_translation: ... (*
       -> [<b><sc_element sys_idtf="full_length_cartoon">Фильм</b></sc_element> - это совокупность движущихся изображений (монтажных кадров), связанных единым сюжетом.] (* <- lang_ru;; => nrel_format: format_html;; *);;

@@ -1,8 +1,6 @@
 satire
   <- sc_node_not_relation;
 
-  <- genre;
-
   => nrel_main_idtf:
     [cатира] (* <- lang_ru;; *);
     [satire] (* <- lang_en;; *);

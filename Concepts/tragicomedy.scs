@@ -1,6 +1,5 @@
 tragicomedy
   <- sc_node_not_relation;
-  <- genre;
 
   => nrel_main_idtf:
     [трагикомедия] (* <- lang_ru;; *);
@@ -13,7 +12,6 @@ tragicomedy
       [Def. (tragicomedy)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
       -> cinema;;
-      -> genre;;
     *);;
     <= nrel_sc_text_translation: ... (*
       -> [<b><sc_element sys_idtf="tragicomedy">Трагикомедия</b></sc_element> - это драматическое произведение, обладающее признаками как <sc_element sys_idtf="comedy">комедии</sc_element>, так и трагедии.] (* <- lang_ru;; => nrel_format: format_html;; *);;

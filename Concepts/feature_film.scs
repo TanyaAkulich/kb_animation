@@ -16,7 +16,7 @@ feature_film
       [Опр. (полнометражный фильм)] (* <- lang_ru;; *);
       [Def. (feature film)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
-      -> genre;;
+      -> nrel_genre;;
     *);;
     <= nrel_sc_text_translation: ... (*
       -> [<b><sc_element sys_idtf="feature_film">Полнометражный фильм</b></sc_element> - это содин из форматов <b><sc_element sys_idtf="cinema">кинофильмов</b></sc_element>. Противопоставляется <b><sc_element sys_idtf="short_film">короткометражному фильму</b></sc_element> (иногда выделяется также промежуточная категория среднеметражных фильмов).] (* <- lang_ru;; => nrel_format: format_html;; *);;

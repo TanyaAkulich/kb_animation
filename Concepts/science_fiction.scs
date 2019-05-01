@@ -1,6 +1,5 @@
 science_fiction
   <- sc_node_not_relation;
-  <- genre;
 
   => nrel_main_idtf:
     [научная фантастика] (* <- lang_ru;; *);
@@ -15,12 +14,12 @@ science_fiction
 
     <= nrel_using_constants: ... (*
       -> cinema;;
-      -> genre;;
+      -> nrel_genre;;
     *);;
 
     <= nrel_sc_text_translation: ... (*
-      -> [<b><sc_element sys_idtf="science_fiction">Научная фантастика</b></sc_element> - это <b><sc_element sys_idtf="genre">жанр</b></sc_element> художественного произведения, один из разновидностей фантастики. Научная фантастика основывается на фантастических допущениях (вымысле, спекуляции) в области науки, включая как точные, так и естественные, и гуманитарные науки.] (* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [The <b><sc_element sys_idtf="science_fiction">science fiction</b></sc_element> is a <b><sc_element sys_idtf="genre">genre</b></sc_element> of artwork, one of the varieties of fiction. Science fiction is based on fantastic assumptions (fiction, speculation) in the field of science, including both exact and natural, and the humanities.](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="science_fiction">Научная фантастика</b></sc_element> - это <b><sc_element sys_idtf="nrel_genre">жанр</b></sc_element> художественного произведения, один из разновидностей фантастики. Научная фантастика основывается на фантастических допущениях (вымысле, спекуляции) в области науки, включая как точные, так и естественные, и гуманитарные науки.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="science_fiction">science fiction</b></sc_element> is a <b><sc_element sys_idtf="nrel_genre">genre</b></sc_element> of artwork, one of the varieties of fiction. Science fiction is based on fantastic assumptions (fiction, speculation) in the field of science, including both exact and natural, and the humanities.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);
 
@@ -36,6 +35,6 @@ science_fiction
     *);;
     <= nrel_sc_text_translation: ... (*
       -> [<sc_element sys_idtf="science_fiction">Научная фантастика</sc_element> описывает вымышленные технологии и научные открытия, контакты с нечеловеческим разумом, возможное будущее или альтернативный ход истории, а также влияние этих допущений на человеческое общество и личность. Действие научной фантастики часто происходит в будущем, что роднит этот жанр с футурологией.](* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [The <b><sc_element sys_idtf="science_fiction">science fiction</b></sc_element> describes fictional technologies and scientific discoveries, contacts with inhuman mind, a possible future or an alternative course of history [3], as well as the impact of these assumptions on human society and personality [4]. Science fiction often happens in the future, which makes this genre related to futurology..](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="science_fiction">science fiction</b></sc_element> describes fictional technologies and scientific discoveries, contacts with inhuman mind, a possible future or an alternative course of history, as well as the impact of these assumptions on human society and personality. Science fiction often happens in the future, which makes this genre related to futurology..](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);;

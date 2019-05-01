@@ -1,0 +1,47 @@
+walt_disney_pictures
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [Дисней] (* <- lang_ru;; *);
+    [The Walt Disney Company] (* <- lang_en;; *);
+  => nrel_idtf:
+    [Уолт Дисней Кампани] (* <- lang_ru;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (Дисней)] (* <- lang_ru;; *);
+      [Def. (The Walt Disney Company)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> cartoon;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="walt_disney_pictures">Дисней</b></sc_element> - один из крупнейших финансовых конгломератов индустрии развлечений в мире.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="walt_disney_pictures">The Walt Disney Company</b></sc_element> is one of the largest financial conglomerates of the entertainment industry in the world.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (Дисней)] (* <- lang_ru;; *);
+      [Exp. (The Walt Disney Company)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animator;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [В работах <b><sc_element sys_idtf="walt_disney_pictures">Диснея</b></sc_element> широко распространёна <b><sc_element sys_idtf="traditional_animation">покадровая</b></sc_element>, или мультипликационная съёмка — это съёмка на пленку отдельных неподвижных фаз (моментов) движения, выраженных в рисунке.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [In the works by <b><sc_element sys_idtf="walt_disney_pictures">The Walt Disney Company</b></sc_element>, the <b><sc_element sys_idtf="traditional_animation">frame-by-frame</b></sc_element> or animation photography widely used in that period was used - this was the shooting on film of individual stationary phases (moments) of motion expressed in the figure.](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (Дисней)] (* <- lang_ru;; *);
+      [Pic. (The Walt Disney Company)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/walt_disney_pictures.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;

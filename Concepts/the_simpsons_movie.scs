@@ -2,10 +2,12 @@ the_simpsons_movie
 
   <- feature_film;
 
-  <- sitcom;
-  <- satire;
-  <- cartoon;
-  <- comedy;
+  => nrel_genre: .. (*
+    <- sitcom;
+      satire;
+      cartoon;
+      comedy;;
+  *);
 
   -> rrel_author: david_mirkin;
 
@@ -41,8 +43,8 @@ the_simpsons_movie
       -> sitcom;;
     *);;
     <= nrel_sc_text_translation: ... (*
-      -> [<b><sc_element sys_idtf="simpsons">Симпсоны</b></sc_element> - американский <b><sc_element sys_idtf="cartoon">мультфильм</b></sc_element> в <b><sc_element sys_idtf="genre">жанре</b></sc_element> <b><sc_element sys_idtf="sitcom">ситуационной комедии</b></sc_element>, созданный <b><sc_element sys_idtf="author">автором</b></sc_element> основного мультсериал Дэвидом Миркином для <b><sc_element sys_idtf="television">телекомпании</b></sc_element> Fox Broadcasting Company.](* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [<b><sc_element sys_idtf="simpsons">The Simpsons</b></sc_element> is American <b><sc_element sys_idtf="cartoon">animated series</b></sc_element> in the <b><sc_element sys_idtf="genre">genre</b></sc_element> of <b><sc_element sys_idtf="sitcom">situational comedy</b></sc_element>, created by the <b><sc_element sys_idtf="animator">cartoonist</b></sc_element> and cartoonist Matt Greing for Fox Broadcasting Company.](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="simpsons">Симпсоны</b></sc_element> - американский <b><sc_element sys_idtf="cartoon">мультфильм</b></sc_element> в <b><sc_element sys_idtf="nrel_genre">жанре</b></sc_element> <b><sc_element sys_idtf="sitcom">ситуационной комедии</b></sc_element>, созданный <b><sc_element sys_idtf="author">автором</b></sc_element> основного мультсериал Дэвидом Миркином для <b><sc_element sys_idtf="television">телекомпании</b></sc_element> Fox Broadcasting Company.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="simpsons">The Simpsons</b></sc_element> is American <b><sc_element sys_idtf="cartoon">animated series</b></sc_element> in the <b><sc_element sys_idtf="nrel_genre">genre</b></sc_element> of <b><sc_element sys_idtf="sitcom">situational comedy</b></sc_element>, created by the <b><sc_element sys_idtf="animator">cartoonist</b></sc_element> and cartoonist Matt Greing for Fox Broadcasting Company.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);
 

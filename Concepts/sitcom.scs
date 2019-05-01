@@ -1,6 +1,5 @@
 sitcom
   <- sc_node_not_relation;
-  <- genre;
 
   => nrel_main_idtf:
     [ситуационная комедия] (* <- lang_ru;; *);
@@ -15,7 +14,7 @@ sitcom
       [Def. (sitcom)] (* <- lang_en;; *);;
     <= nrel_using_constants: ... (*
       -> cinema;;
-      -> genre;;
+      -> nrel_genre;;
       -> satire;;
     *);;
     <= nrel_sc_text_translation: ... (*
