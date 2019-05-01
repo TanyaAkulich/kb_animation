@@ -5,6 +5,8 @@ rrel_main_character
     [главный персонаж'] (* <- lang_ru;; *);
     [main character'] (* <- lang_en;; *);
 
+  <= nrel_inclusion: character;
+
   <- rrel_key_sc_element: ... (*
     <- definition;;
     => nrel_main_idtf:

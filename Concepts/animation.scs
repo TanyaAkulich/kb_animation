@@ -1,3 +1,62 @@
+subject_domain_of_animation
+  <- subject_domain;
+
+  => nrel_main_idtf:[Предметная область мультипликации](* <- lang_ru;; *);
+  => nrel_main_idtf:[Subject domain of animation](* <- lang_en;; *);
+
+  -> rrel_maximum_studied_object_class: animation;
+  -> rrel_not_maximum_studied_object_class:
+	  animator;
+	  cartoon;
+    cinema;
+    cinematography;
+    clay_animation;
+    comedy;
+    computer_animation;
+    feature_film;
+    full_length_cartoon;
+    rrel_author;
+    nrel_family_member;
+    nrel_first_appearance;
+    genre;
+    nrel_last_appearance;
+    rrel_main_character;
+    rrel_number_of_episodes;
+    rrel_number_of_seasons;
+    person;
+    sand_animation;
+    satire;
+    science_fiction;
+    rrel_secondary_character;
+    series;
+    short_film;
+    sitcom;
+    nrel_spouse;
+    television;
+    traditional_animation;
+    tragicomedy;
+    nrel_premiere;
+    nrel_production_company;
+    nrel_country_of_origin;
+    nrel_friend;
+    nrel_enemy;
+    nrel_acquaintance;
+    nrel_stranger;
+    award;
+    academy_award_for_best_animated_feature;
+    academy_award_for_best_animated_short_film;
+    annie_award_for_best_animated_feature;
+    annie_award_for_best_animated_short_subject;
+    annie_award_for_best_animated_television_production;
+    nrel_award_date;
+    date;
+    usa;
+    black_comedy;
+    nrel_based_on;
+    book;
+    academy_of_motion_picture_arts_and_sciences;
+	  character;;
+
 animation
   <- sc_node_not_relation;
 

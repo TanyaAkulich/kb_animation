@@ -1,0 +1,22 @@
+tragicomedy
+  <- sc_node_not_relation;
+  <- genre;
+
+  => nrel_main_idtf:
+    [трагикомедия] (* <- lang_ru;; *);
+    [tragicomedy] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (трагикомедия)] (* <- lang_ru;; *);
+      [Def. (tragicomedy)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> genre;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="tragicomedy">Трагикомедия</b></sc_element> - это драматическое произведение, обладающее признаками как <sc_element sys_idtf="comedy">комедии</sc_element>, так и трагедии.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="tragicomedy">tragicomedy</b></sc_element> is a dramatic work with signs of both <sc_element sys_idtf="comedy">comedy</sc_element> and tragedy.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;

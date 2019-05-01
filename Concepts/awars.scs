@@ -1,0 +1,13 @@
+award
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [премия] (* <- lang_ru;; *);
+    [award] (* <- lang_en;; *);
+
+  => nrel_inclusion:
+    academy_award_for_best_animated_feature;
+    academy_award_for_best_animated_short_film;
+    annie_award_for_best_animated_feature;
+    annie_award_for_best_animated_short_subject;
+    annie_award_for_best_animated_television_production;;

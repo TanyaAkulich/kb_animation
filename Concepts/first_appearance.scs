@@ -1,5 +1,5 @@
 nrel_first_appearance
-  <- sc_node_relation;
+  <- sc_node_norole_relation;
 
   => nrel_main_idtf:
     [первое появление] (* <- lang_ru;; *);

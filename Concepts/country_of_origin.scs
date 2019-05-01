@@ -1,0 +1,6 @@
+nrel_country_of_origin
+  <- sc_node_norole_relation;
+
+  => nrel_main_idtf:
+    [страна производства] (* <- lang_ru;; *);
+    [country of origin] (* <- lang_en;; *);;

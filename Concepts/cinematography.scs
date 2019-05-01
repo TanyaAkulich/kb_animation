@@ -5,6 +5,9 @@ cinematography
     [кинематограф] (* <- lang_ru;; *);
     [cinematography] (* <- lang_en;; *);
 
+  => nrel_inclusion: cartoon;
+  => nrel_inclusion: cinema;
+
   <- rrel_key_sc_element: ... (*
     <- definition;;
     => nrel_main_idtf:

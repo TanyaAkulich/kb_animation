@@ -1,0 +1,39 @@
+black_comedy
+  <- sc_node_not_relation;
+  <- genre;
+
+  => nrel_main_idtf:
+    [черный юмор] (* <- lang_ru;; *);
+    [black comedy] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (черный юмор)] (* <- lang_ru;; *);
+      [Def. (black comedy)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> genre;;
+      -> satire;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="black_comedy">Черный юмор</b></sc_element> - это юмористический <b><sc_element sys_idtf="genre">жанр</b></sc_element> художественного произведения, характеризующийся примесью цинизма, комический эффект которого состоит в насмешках над смертью, насилием, болезнями, физическими уродствами или иными «мрачными», макабрическими темами.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="black_comedy">black comedy</b></sc_element> is a <b><sc_element sys_idtf="genre">genre</b></sc_element> of artwork characterized by a humor with a touch of cynicism, the comic effect of which is ridicule over death, violence, disease, physical deformities, or other “dark”, macabre themes.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (черный юмор)] (* <- lang_ru;; *);
+      [Exp. (black comedy)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> black_comedy;;
+      -> cinema;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="black_comedy">Черный юмор</b></sc_element> — обычный ингредиент абсурдистики в <b><sc_element sys_idtf="animation">анимации</b></sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [he <b><sc_element sys_idtf="black_comedy">black comedy</b></sc_element> is the usual ingredient of absurdity in <b><sc_element sys_idtf="animation">animations</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;

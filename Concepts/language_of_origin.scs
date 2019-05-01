@@ -1,0 +1,6 @@
+language_of_origin
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [язык оригинала] (* <- lang_ru;; *);
+    [language of origin] (* <- lang_en;; *);;

@@ -1,0 +1,6 @@
+nrel_based_on
+  <- sc_node_norole_relation;
+
+  => nrel_main_idtf:
+    [быть основанным на] (* <- lang_ru;; *);
+    [based on] (* <- lang_en;; *);;

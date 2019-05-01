@@ -9,6 +9,8 @@ traditional_animation
     [cel animation] (* <- lang_en;; *);
     [hand-drawn animation] (* <- lang_en;; *);
 
+  <= nrel_inclusion: animation;
+
   <- rrel_key_sc_element: ... (*
     <- definition;;
     => nrel_main_idtf:

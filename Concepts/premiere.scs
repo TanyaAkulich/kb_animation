@@ -1,0 +1,7 @@
+nrel_premiere
+  <- sc_node_norole_relation;
+  <- date;
+
+  => nrel_main_idtf:
+    [премьера] (* <- lang_ru;; *);
+    [premiere] (* <- lang_en;; *);;

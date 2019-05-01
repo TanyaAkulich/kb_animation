@@ -1,0 +1,6 @@
+nrel_acquaintance
+  <- sc_node_norole_relation;
+
+  => nrel_main_idtf:
+    [знакомый] (* <- lang_ru;; *);
+    [acquaintance] (* <- lang_en;; *);;

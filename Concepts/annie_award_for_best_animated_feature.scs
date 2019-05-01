@@ -1,0 +1,6 @@
+annie_award_for_best_animated_feature
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [премия «Энни» за лучший анимационный полнометражный фильм] (* <- lang_ru;; *);
+    [annie award for best animated feature] (* <- lang_en;; *);;

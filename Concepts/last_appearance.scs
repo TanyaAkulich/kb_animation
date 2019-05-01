@@ -1,5 +1,5 @@
 nrel_last_appearance
-  <- sc_node_relation;
+  <- sc_node_norole_relation;
 
   => nrel_main_idtf:
     [последнее появление] (* <- lang_ru;; *);

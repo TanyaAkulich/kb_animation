@@ -1,0 +1,6 @@
+nrel_friend
+  <- sc_node_norole_relation;
+
+  => nrel_main_idtf:
+    [друг] (* <- lang_ru;; *);
+    [friend] (* <- lang_en;; *);;

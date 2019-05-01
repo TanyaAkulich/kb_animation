@@ -1,0 +1,7 @@
+nrel_award_date
+  <- sc_node_norole_relation;
+  <- date;
+
+  => nrel_main_idtf:
+    [дата награждения] (* <- lang_ru;; *);
+    [award date] (* <- lang_en;; *);;

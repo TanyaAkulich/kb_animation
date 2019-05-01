@@ -37,8 +37,8 @@ cinema
   *);
 
   <= nrel_subdeviding:... (*
-    -> full_length_cartoons;;
-    -> short_cartoons;;
+    -> full_length_cartoon;;
+    -> short_cartoon;;
     => nrel_main_idtf:
       [Разбиение по продолжительности](* <- lang_ru;; *);
       [Subdividing by duration](* <- lang_en;; *);;

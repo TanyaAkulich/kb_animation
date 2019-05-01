@@ -1,0 +1,6 @@
+nrel_stranger
+  <- sc_node_norole_relation;
+
+  => nrel_main_idtf:
+    [незнакомый] (* <- lang_ru;; *);
+    [stranger] (* <- lang_en;; *);;

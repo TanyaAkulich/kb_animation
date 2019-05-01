@@ -8,6 +8,8 @@ clay_animation
     [пластилиновая мультипликация] (* <- lang_ru;; *);
     [claymation] (* <- lang_en;; *);
 
+  <= nrel_inclusion: animation;
+
   <- rrel_key_sc_element: ... (*
     <- definition;;
     => nrel_main_idtf:

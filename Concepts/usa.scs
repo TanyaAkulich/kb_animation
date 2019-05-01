@@ -1,0 +1,6 @@
+usa
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [Соединенные Штаты Америки] (* <- lang_ru;; *);
+    [United States of America] (* <- lang_en;; *);;
