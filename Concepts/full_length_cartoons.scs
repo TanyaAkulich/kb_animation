@@ -1,6 +1,8 @@
 full_length_cartoon
   <- sc_node_not_relation;
 
+  <- cinema;
+
   => nrel_main_idtf:
     [фильм] (* <- lang_ru;; *);
     [full-length film] (* <- lang_en;; *);
@@ -29,27 +31,4 @@ full_length_cartoon
       -> [<b><sc_element sys_idtf="full_length_cartoon">Фильм</b></sc_element> — последовательность фотографических изображений, снятых с определённой частотой на фотоплёнке с помощью специального устройства (кинокамеры) и предназначенных для проекции (с той же частотой) на экран.](* <- lang_ru;; => nrel_format: format_html;; *);;
       -> [A <b><sc_element sys_idtf="full_length_cartoon">full_length_cartoon</b></sc_element> is a sequence of photographic images taken at a certain frequency on a photographic full_length_cartoon with the help of a special device (camera) and intended for projection (with the same frequency) onto the screen.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
-  *);
-
-  <= nrel_subdeviding:... (*
-    -> full_length_cartoons;;
-    -> short_cartoons;;
-    => nrel_main_idtf:
-      [Разбиение по продолжительности](* <- lang_ru;; *);
-      [Subdividing by duration](* <- lang_en;; *);;
-  *);
-
-  <= nrel_subdeviding:... (*
-    -> series;;
-    => nrel_main_idtf:
-      [Разбиение по количеству серий](* <- lang_ru;; *);
-      [Subdividing by number of series](* <- lang_en;; *);;
-  *);
-
-  <= nrel_subdeviding:... (*
-    -> comedy;;
-    -> tragicomedy;;
-    => nrel_main_idtf:
-      [Разбиение по основным жанрам](* <- lang_ru;; *);
-      [Subdividing by major genres of drama](* <- lang_en;; *);;
   *);;

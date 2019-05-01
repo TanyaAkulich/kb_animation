@@ -1,6 +1,8 @@
 cartoon
   <- sc_node_not_relation;
 
+  <- cinema;
+
   => nrel_main_idtf:
     [мультфильм] (* <- lang_ru;; *);
     [cartoon] (* <- lang_en;; *);
@@ -28,14 +30,6 @@ cartoon
     => nrel_main_idtf:
       [Разбиение по способу создания анимации](* <- lang_ru;; *);
       [Subdividing by creating animation](* <- lang_en;; *);;
-  *);
-
-  <= nrel_subdeviding: ... (*
-    -> full_length_cartoon;;
-    -> short_cartoon;;
-    => nrel_main_idtf:
-      [Разбиение по продолжительности](* <- lang_ru;; *);
-      [Subdividing by duration](* <- lang_en;; *);;
   *);
 
   <- rrel_key_sc_element:... (*
