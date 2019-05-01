@@ -1,6 +1,8 @@
 feature_film
   <- sc_node_not_relation;
 
+  <- cinema;
+
   => nrel_main_idtf:
     [полнометражный фильм] (* <- lang_ru;; *);
     [feature film] (* <- lang_en;; *);

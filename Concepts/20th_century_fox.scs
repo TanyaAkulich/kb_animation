@@ -1,0 +1,7 @@
+20th_century_fox
+  <- sc_node_not_relation;
+
+  => nrel_main_idtf:
+    [20th Century Fox] (* <- lang_en;; *);
+  => nrel_idtf:
+    [Кинообъединение "Двадцатый век Фокс"] (* <- lang_ru;; *);;

@@ -4,10 +4,11 @@ maggie_simpson
   => nrel_first_appearance:
     ["Good Night" (1987)] (* <- lang_en;; *);
 
-  <=> nrel_family_member: bart_simpson;
   <=> nrel_family_member: lisa_simpson;
-  <=> nrel_family_member: homer_simpson;
   <=> nrel_family_member: marge_simpson;
+
+  <=> nrel_friend: lisa_simpson;
+  <=> nrel_friend: marge_simpson;
 
   => nrel_main_idtf:
     [Мэгги Симпсон] (* <- lang_ru;; *);

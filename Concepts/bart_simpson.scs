@@ -8,6 +8,10 @@ bart_simpson
   <=> nrel_family_member: lisa_simpson;
   <=> nrel_family_member: homer_simpson;
   <=> nrel_family_member: marge_simpson;
+  <=> nrel_friend: maggie_simpson;
+  <=> nrel_friend: lisa_simpson;
+  <=> nrel_friend: homer_simpson;
+  <=> nrel_friend: marge_simpson;
 
   => nrel_main_idtf:
     [Барт Симпсон] (* <- lang_ru;; *);

@@ -1,6 +1,8 @@
 short_film
   <- sc_node_not_relation;
 
+  <- cinema;
+
   => nrel_main_idtf:
     [короткометражный фильм] (* <- lang_ru;; *);
     [short film] (* <- lang_en;; *);

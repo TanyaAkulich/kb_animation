@@ -1,0 +1,56 @@
+the_simpsons_movie
+
+  <- feature_film;
+
+  <- sitcom;
+  <- satire;
+  <- cartoon;
+  <- comedy;
+
+  -> rrel_author: david_mirkin;
+
+  -> rrel_main_character: homer_simpson;
+  -> rrel_main_character: marge_simpson;
+  -> rrel_main_character: bart_simpson;
+  -> rrel_main_character: lisa_simpson;
+  -> rrel_main_character: maggie_simpson;
+
+  -> nrel_production_company: 20th_century_fox;
+
+  -> nrel_based_on: simpsons;
+
+  -> nrel_country_of_origin: usa;
+
+  -> nrel_language_of_origin: lang_en;
+
+
+  => nrel_main_idtf:
+    [Симпсоны в кино] (* <- lang_ru;; *);
+    [The Simpsons Movie] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Def. (Симпсоны в кино)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cinema;;
+      -> cartoon;;
+      -> animation;;
+      -> animator;;
+      -> television;;
+      -> sitcom;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="simpsons">Симпсоны</b></sc_element> - американский <b><sc_element sys_idtf="cartoon">мультфильм</b></sc_element> в <b><sc_element sys_idtf="genre">жанре</b></sc_element> <b><sc_element sys_idtf="sitcom">ситуационной комедии</b></sc_element>, созданный <b><sc_element sys_idtf="author">автором</b></sc_element> основного мультсериал Дэвидом Миркином для <b><sc_element sys_idtf="television">телекомпании</b></sc_element> Fox Broadcasting Company.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="simpsons">The Simpsons</b></sc_element> is American <b><sc_element sys_idtf="cartoon">animated series</b></sc_element> in the <b><sc_element sys_idtf="genre">genre</b></sc_element> of <b><sc_element sys_idtf="sitcom">situational comedy</b></sc_element>, created by the <b><sc_element sys_idtf="animator">cartoonist</b></sc_element> and cartoonist Matt Greing for Fox Broadcasting Company.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Симпсоны)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/the_simpsons_movie.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;

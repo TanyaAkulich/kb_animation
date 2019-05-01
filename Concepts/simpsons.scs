@@ -18,6 +18,11 @@ simpsons
   -> rrel_main_character: lisa_simpson;
   -> rrel_main_character: maggie_simpson;
 
+  -> nrel_production_company: 20th_century_fox;
+
+  -> nrel_country_of_origin: usa;
+
+  -> nrel_language_of_origin: lang_en;
 
   => nrel_main_idtf:
     [Симпсоны] (* <- lang_ru;; *);
