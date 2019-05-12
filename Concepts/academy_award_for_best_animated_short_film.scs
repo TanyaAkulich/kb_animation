@@ -6,3 +6,31 @@ academy_award_for_best_animated_short_film
   => nrel_main_idtf:
     [премия «Оскар» за лучший анимационный короткометражный фильм] (* <- lang_ru;; *);
     [academy award for best animated short film] (* <- lang_en;; *);;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (премия «Оскар» за лучший анимационный короткометражный фильм)] (* <- lang_ru;; *);
+      [Def. (academy award for best animated short film)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> academy_of_motion_picture_arts_and_sciences;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+    -> [<b><sc_element sys_idtf="academy_award_for_best_animated_short_film">премия «Оскар» за лучший анимационный короткометражный фильм</b></sc_element> — награда <sc_element sys_idtf="academy_of_motion_picture_arts_and_sciences">Американской академии киноискусства</sc_element>, присуждаемая ежегодно с 1932 года.](* <- lang_ru;; => nrel_format: format_html;; *);;
+    -> [<b><sc_element sys_idtf="academy_award_for_best_animated_short_film">academy award for best animated short film</b></sc_element> is Award of <sc_element sys_idtf="academy_of_motion_picture_arts_and_sciences">the American Academy of Film Arts</sc_element>, awarded annually since 1932.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (academy award for best animated short film)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> nrel_production_company;;
+      -> cartoon;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Первоначально награда вручалась продюсеру или <sc_element sys_idtf="nrel_production_company">компании производителю</sc_element>, с 1989 года — режиссёру <sc_element sys_idtf="cartoon">мультфильма</sc_element>.](* <- lang_ru;; => nrel_format:format_html;; *);;
+      -> [Initially, the award was presented to the producer or <sc_element sys_idtf="nrel_production_company">producer company</sc_element>, since 1989 - to the <sc_element sys_idtf="cartoon">cartoon</sc_element> director.](* <- lang_en;; => nrel_format:format_html;; *);;
+    *);;
+  *);;
