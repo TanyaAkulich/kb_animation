@@ -2,5 +2,5 @@ annie_award_for_best_animated_television_production
   <- sc_node_not_relation;
 
   => nrel_main_idtf:
-    [премия «Оскар» за лучший анимационную телепередачу] (* <- lang_ru;; *);
-    [academy award for best animated television production] (* <- lang_en;; *);;
+    [премия «Энни» за лучший анимационную телепередачу] (* <- lang_ru;; *);
+    [annie award for best animated television production] (* <- lang_en;; *);;

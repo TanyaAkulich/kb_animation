@@ -4,8 +4,8 @@ full_length_cartoon
   <- cinema;
 
   => nrel_main_idtf:
-    [фильм] (* <- lang_ru;; *);
-    [full-length film] (* <- lang_en;; *);
+    [полнометражный мультфильм] (* <- lang_ru;; *);
+    [full-length cartoon] (* <- lang_en;; *);
 
 
   <- rrel_key_sc_element: ... (*

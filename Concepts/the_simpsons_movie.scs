@@ -1,13 +1,12 @@
 the_simpsons_movie
 
-  <- feature_film;
+  <- full_length_cartoon;
 
-  => nrel_genre: .. (*
-    <- sitcom;
-      satire;
-      cartoon;
-      comedy;;
-  *);
+  => nrel_genre:
+    sitcom;
+    satire;
+    cartoon;
+    comedy;
 
   -> rrel_author: david_mirkin;
 
@@ -17,13 +16,13 @@ the_simpsons_movie
   -> rrel_main_character: lisa_simpson;
   -> rrel_main_character: maggie_simpson;
 
-  -> nrel_production_company: 20th_century_fox;
+  => nrel_production_company: 20th_century_fox;
 
-  -> nrel_based_on: simpsons;
+  => nrel_based_on: simpsons;
 
-  -> nrel_country_of_origin: usa;
+  => nrel_country_of_origin: usa;
 
-  -> nrel_language_of_origin: lang_en;
+  => nrel_language_of_origin: lang_en;
 
 
   => nrel_main_idtf:

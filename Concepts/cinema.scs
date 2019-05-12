@@ -21,7 +21,7 @@ cinema
     *);;
     <= nrel_sc_text_translation: ... (*
       -> [<b><sc_element sys_idtf="cinema">Фильм</b></sc_element> - это совокупность движущихся изображений (монтажных кадров), связанных единым сюжетом.] (* <- lang_ru;; => nrel_format: format_html;; *);;
-      -> [The <b><sc_element sys_idtf="ilm">cinema</b></sc_element> is a set of moving images (editing frames) connected by a single plot.](* <- lang_en;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="cinema">cinema</b></sc_element> is a set of moving images (editing frames) connected by a single plot.](* <- lang_en;; => nrel_format: format_html;; *);;
     *);;
   *);
 

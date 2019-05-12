@@ -1,12 +1,13 @@
 futurama
   <- series;
 
-  => nrel_genre: .. (*
-    <- science_fiction;
-      satire;
-      cartoon;
-      black_comedy;;
-  *);
+  => nrel_genre:
+    science_fiction;
+    satire;
+    cartoon;
+    black_comedy;
+
+  => nrel_premiere: 8.03.1999 (* <- date;; *);
 
   -> rrel_author: matt_groening;
   -> rrel_author: david_cohen;
@@ -19,9 +20,9 @@ futurama
   -> rrel_main_character: bender_bending_rodriguez;
   -> rrel_main_character: hubert_farnsworth;
 
-  -> nrel_country_of_origin: usa;
+  => nrel_country_of_origin: usa;
 
-  -> nrel_language_of_origin: lang_en;
+  => nrel_language_of_origin: lang_en;
 
   => nrel_main_idtf:
     [футурама] (* <- lang_ru;; *);
