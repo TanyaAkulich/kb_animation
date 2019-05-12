@@ -4,4 +4,43 @@
   => nrel_main_idtf:
     [20th Century Fox] (* <- lang_en;; *);
   => nrel_idtf:
-    [Кинообъединение "Двадцатый век Фокс"] (* <- lang_ru;; *);;
+    [Кинообъединение "Двадцатый век Фокс"] (* <- lang_ru;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (Кинообъединение "Двадцатый век Фокс")] (* <- lang_ru;; *);
+      [Def. (20th Century Fox)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> nrel_production_company;;
+      -> walt_disney_pictures;;
+      -> cinema;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="20th_century_fox">20th Century Fox (Кинообъединение „Двадцатый век Фокс“)</b></sc_element> — одна из шести крупнейших американских <sc_element sys_idtf="nrel_production_company">киностудий</sc_element>, которая является дочерней компанией <sc_element sys_idtf="walt_disney_pictures">The Walt Disney Company</sc_element>. Занимается также производством <sc_element sys_idtf="cinema">телефильмов</sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="20th_century_fox">20th Century Fox</b></sc_element> is one of six American <sc_element sys_idtf="nrel_production_company">film studios</sc_element>, which is a subsidiary of <sc_element sys_idtf="walt_disney_pictures">The Walt Disney Company</sc_element>. It is also engaged in the production of <sc_element sys_idtf="cinema">television films</sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (20th Century Fox)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> futurama;;
+      -> simpsons;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Самая популярная медиафраншиза <sc_element sys_idtf="20th_century_fox">20th Century Fox</sc_element> включает в себя «Звёздные войны» (до перехода к компании <sc_element sys_idtf="walt_disney_pictures">Дисней</sc_element>), «Аватар», «Люди Икс», «Ледниковый период», «Рио», «Крепкий орешек», «Хищник», «Чужой», «Планета обезьян», «Один дома», включая самые популярные телесериалы, такие как «Бэтмен», «МЭШ», «Секретные материалы», «Копы» (Cops), <sc_element sys_idtf="futurama">«Футурама»</sc_element>, <sc_element sys_idtf="simpsons">«Симпсоны»</sc_element>, «Гриффины», «Американский папаша!», и «24».](* <- lang_ru;; => nrel_format:format_html;; *);;
+      -> [The most popular media franchises of <sc_element sys_idtf="20th_century_fox">20th Century Fox</sc_element> include Star Wars (before moving to <sc_element sys_idtf="walt_disney_pictures">Disney</sc_element>), "Avatar", "X-Men", "Ice Age", "Rio", "Die Hard", "Predator", and "Alien", "Planet of the Apes", "Home Alone", including the most popular TV shows, such as "Batman", "Grid", "The X-Files", "Cops", <sc_element sys_idtf="futurama">"Futurama"</sc_element>, <sc_element sys_idtf="simpsons">"The Simpsons"</sc_element>, "Family Guy", "American Dad!", "24".](* <- lang_en;; => nrel_format:format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (20th Century Fox)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/20th_century_fox.jpg" (* => nrel_format: format_jpg;; *);;
+    *);;
+  *);;
