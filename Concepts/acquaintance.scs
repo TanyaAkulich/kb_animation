@@ -3,4 +3,18 @@ nrel_acquaintance
 
   => nrel_main_idtf:
     [знакомый] (* <- lang_ru;; *);
-    [acquaintance] (* <- lang_en;; *);;
+    [acquaintance] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (знакомый)] (* <- lang_ru;; *);
+      [Def. (acquaintance)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> person;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+    -> [<b><sc_element sys_idtf="acquaintance">Знакомый</b></sc_element> - это <sc_element sys_idtf="person">человек</sc_element>, с которым данный человек общается, которого он уже знает.](* <- lang_ru;; => nrel_format: format_html;; *);;
+    -> [<b><sc_element sys_idtf="acquaintance">acquaintance</b></sc_element> is the <sc_element sys_idtf="person">person</sc_element> with whom the person communicates, which he already knows.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
