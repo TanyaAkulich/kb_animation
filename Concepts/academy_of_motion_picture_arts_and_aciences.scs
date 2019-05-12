@@ -4,3 +4,30 @@ academy_of_motion_picture_arts_and_sciences
   => nrel_main_idtf:
     [академия кинематографических искусств и наук] (* <- lang_ru;; *);
     [academy of motion picture arts and sciences] (* <- lang_en;; *);;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (академия кинематографических искусств и наук)] (* <- lang_ru;; *);
+      [Def. (academy of motion picture arts and sciences)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> academy_of_motion_picture_arts_and_sciences;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+    -> [<b><sc_element sys_idtf="academy_award_for_best_animated_feature">Академия кинематографических искусств и наук</b></sc_element> основана 11 мая 1927 года в штате Калифорния (<sc_element sys_idtf="usa">США</sc_element>) как организация профессионалов на общественных началах, посвящённая продвижению <sc_element sys_idtf="cinematography">кинематографа</sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+    -> [<b><sc_element sys_idtf="academy_award_for_best_animated_feature">Academy of motion picture arts and sciences</b></sc_element> is founded May 11, 1927 in the state of California (<sc_element sys_idtf="usa">USA</sc_element>) as an organization of professionals on a voluntary basis, dedicated to the promotion of <sc_element sys_idtf="cinematography">cinema</sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (academy of motion picture arts and sciences)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> dream_works;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Академия известна по всему миру своей ежегодной кинопремией «Оскар». Помимо этого, Академия также производит награждение студенческой премией Академии и поощрение не более пяти кинодраматургов премией «Никол», управляет библиотекой Маргарет Херрик (в Центре обучения киноискусству имени Фэрбенкса), расположенной в Беверли-Хиллз (штат Калифорния), и Центром обучения киноискусству имени Пикфорд в Голливуде.](* <- lang_ru;; => nrel_format:format_html;; *);;
+      -> [The Academy is known worldwide for its annual Academy Award. In addition, the Academy also awards the Academy Student Award and encourages no more than five screenwriters to the Nichol Prize, manages the Margaret Herrick Library (at the Fairbanks Film Training Center), located in Beverly Hills, California, and the Pikford Film Training Center in Hollywood.](* <- lang_en;; => nrel_format:format_html;; *);;
+    *);;
+  *);;
