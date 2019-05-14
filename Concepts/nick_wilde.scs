@@ -1,0 +1,9 @@
+nick_wilde
+
+  <- character;
+
+  <=> nrel_friend: judy_hopps;
+
+  => nrel_main_idtf:
+    [Ник Уальд] (* <- lang_ru;; *);
+    [Nick Wilde] (* <- lang_en;; *);;

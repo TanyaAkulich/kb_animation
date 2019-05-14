@@ -1,11 +1,12 @@
 zootopia
 
-  <- cartoon;
+  <- cinema;
 
   => nrel_genre:
     comedy;
     adventure;
     mystery;
+    cartoon;
 
   => nrel_premiere: 13.02.2016 (* <- date;; *);
 

@@ -1,9 +1,8 @@
 academy_award_for_best_animated_short_film
   <- sc_node_not_relation;
 
-  => nrel_main_idtf:
-    [премия «Оскар» за лучший анимационный короткометражный фильм] (* <- lang_ru;; *);
-    [academy award for best animated short film] (* <- lang_en;; *);;
+  => nrel_main_idtf: [премия «Оскар» за лучший анимационный короткометражный фильм] (* <- lang_ru;; *);
+  => nrel_main_idtf: [academy award for best animated short film] (* <- lang_en;; *);;
 
   <- rrel_key_sc_element: ... (*
     <- definition;;

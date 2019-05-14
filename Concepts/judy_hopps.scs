@@ -1,0 +1,7 @@
+judy_hopps
+
+  <- character;
+
+  => nrel_main_idtf:
+    [Джуди Хоппс] (* <- lang_ru;; *);
+    [Judy Hopps] (* <- lang_en;; *);;
