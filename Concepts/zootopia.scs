@@ -1,0 +1,61 @@
+zootopia
+
+  <- cartoon;
+
+  => nrel_genre:
+    comedy;
+    adventure;
+    mystery;
+
+  => nrel_premiere: 13.02.2016 (* <- date;; *);
+
+  -> rrel_author: rich_moore;
+
+  -> rrel_main_character: judy_hopps;
+  -> rrel_main_character: nick_wilde;
+
+  => nrel_country_of_origin: usa;
+
+  => nrel_language_of_origin: lang_en;
+
+  => nrel_main_idtf:
+    [Зверополис] (* <- lang_ru;; *);
+    [Zootopia] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Def. (Зверополис)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> computer_animation;;
+      -> cartoon;;
+      -> nrel_genre;;
+      -> walt_disney_pictures;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="zootopia">Зверополис</b></sc_element> - американский <sc_element sys_idtf="computer_animation">компьютерно-анимационный</sc_element> <sc_element sys_idtf="nrel_genre">комедийно-приключенческий</sc_element> <sc_element sys_idtf="cartoon">фильм</sc_element> в формате 3D производства <sc_element sys_idtf="walt_disney_pictures">Walt Disney Animation Studios</sc_element>, выпущенный Walt Disney Pictures](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="zootopia">Zootopia</b></sc_element> is an American <sc_element sys_idtf="computer_animation">computer-animated</sc_element> sc_element sys_idtf="nrel_genre">comedy-adventure</sc_element> <sc_element sys_idtf="cartoon">film</sc_element> in the format of 3D production of <sc_element sys_idtf="walt_disney_pictures">Walt Disney Animation Studios</sc_element>, released by Walt Disney Pictures.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (Зверополис)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animator;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [«Зверополис» был создан режиссёрами Байроном Ховардом и <sc_element sys_idtf="rich_moore">Ричем Муром</sc_element>, сорежиссёром Джаредом Бушем.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [Zootopia was created by director Byron Howard and <sc_element sys_idtf="rich_moore">Rich Moore</sc_element>, director Jared Bush.](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Зверополис)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/zootopia.jpg" (* => nrel_format: format_jpg;; *);;
+    *);;
+  *);;
