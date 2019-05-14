@@ -10,3 +10,38 @@ stop_motion_animation
     [hand-drawn animation] (* <- lang_en;; *);
 
   <= nrel_inclusion: animation;;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (кукольная анимация)] (* <- lang_ru;; *);
+      [Def. (stop_motion animation)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="stop_motion_animation">Кукольная анимация</b></sc_element> - это вид <b><sc_element sys_idtf="animation">мультипликации</b></sc_element>, создаваемый при помощи сцена-макетов и кукл-актёров.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="stop_motion_animation">Stop motion animation</b></sc_element> is a stage layout and dolls actors generated type of <b><sc_element sys_idtf="animation">animation</b></sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Утв. (кукольная анимация)] (* <- lang_ru;; *);
+      [Exp. (stop_motion animation)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Сцена фотографируется покадрово, после каждого кадра в сцену вносятся минимальные изменения (например, изменяется поза куклы). При воспроизведении полученной последовательности кадров возникает иллюзия движения объектов.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The scene is photographed frame by frame, after each frame minimal changes are made to the scene (for example, the doll's pose changes). When playing the resulting sequence of frames, the illusion of movement of objects.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Рис. (кукольная анимация)] (* <- lang_ru;; *);
+      [Pic. (stop_motion_animation)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/stop_motion_animation.jpg" (* => nrel_format: format_jpg;; *);;
+    *);;
+  *);;
