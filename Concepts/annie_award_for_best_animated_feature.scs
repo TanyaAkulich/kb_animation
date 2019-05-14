@@ -3,4 +3,18 @@ annie_award_for_best_animated_feature
 
   => nrel_main_idtf:
     [премия «Энни» за лучший анимационный полнометражный фильм] (* <- lang_ru;; *);
-    [annie award for best animated feature] (* <- lang_en;; *);;
+    [annie award for best animated feature] (* <- lang_en;; *);
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (премия «Энни» за лучший анимационный полнометражный фильм)] (* <- lang_ru;; *);
+      [Def. (annie award for best animated feature)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> academy_of_motion_picture_arts_and_sciences;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+    -> [<b><sc_element sys_idtf="annie_award_for_best_animated_feature">Премия «Энни» за лучший анимационный полнометражный фильм</b></sc_element> — награда <sc_element sys_idtf="academy_of_motion_picture_arts_and_sciences">Американской академии киноискусства</sc_element>, присуждаемая ежегодно с 2002 года.](* <- lang_ru;; => nrel_format: format_html;; *);;
+    -> [<b><sc_element sys_idtf="annie_award_for_best_animated_feature">Annie award for best animated feature</b></sc_element> is Award of <sc_element sys_idtf="academy_of_motion_picture_arts_and_sciences">the American Academy of Film Arts</sc_element>, awarded annually since 2002.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
