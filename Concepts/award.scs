@@ -10,4 +10,16 @@ award
     academy_award_for_best_animated_short_film;
     annie_award_for_best_animated_feature;
     annie_award_for_best_animated_short_subject;
-    annie_award_for_best_animated_television_production;;
+    annie_award_for_best_animated_television_production;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Опр. (премия)] (* <- lang_ru;; *);
+      [Def. (award)] (* <- lang_en;; *);;
+
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="award">Премия</b></sc_element> - одна из форм поощрения за выдающиеся результаты, достигнутые в какой-либо области деятельности.] (* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [The <b><sc_element sys_idtf="award">Awardg</b></sc_element> is tone form of reward for outstanding results achieved in any field of activity.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);;
