@@ -3,7 +3,7 @@ academy_of_motion_picture_arts_and_sciences
 
   => nrel_main_idtf:
     [академия кинематографических искусств и наук] (* <- lang_ru;; *);
-    [academy of motion picture arts and sciences] (* <- lang_en;; *);;
+    [academy of motion picture arts and sciences] (* <- lang_en;; *);
 
   <- rrel_key_sc_element: ... (*
     <- definition;;

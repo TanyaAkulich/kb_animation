@@ -9,6 +9,6 @@ matt_groening
     => nrel_main_idtf:
       [Pic. (Футурама)] (* <- lang_en;; *);;
     <= nrel_sc_text_translation: ... (*
-      -> "file://images/matt_groening.png" (* => nrel_format: format_png;; *);;
+      -> "file://images/matt_groening.jpg" (* => nrel_format: format_jpg;; *);;
     *);;
   *);;
