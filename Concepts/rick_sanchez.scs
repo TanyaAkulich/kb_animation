@@ -1,0 +1,9 @@
+rick_sanchez
+
+  <- character;
+
+  <=> nrel_family_member: morty_smith;
+
+  => nrel_main_idtf:
+    [Рик Санчех] (* <- lang_ru;; *);
+    [Rick Sanchez] (* <- lang_en;; *);;

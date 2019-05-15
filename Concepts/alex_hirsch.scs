@@ -1,0 +1,6 @@
+alex_hirsch
+
+  <- person;
+  => nrel_main_idtf:
+    [Алекс Хирш] (* <- lang_ru;; *);
+    [Alex Hirsch] (* <- lang_en;; *);;

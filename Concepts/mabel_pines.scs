@@ -1,0 +1,7 @@
+mabel_pines
+
+  <=> nrel_friend: waddles;
+
+  => nrel_main_idtf:
+    [Мейбл Пайнс] (* <- lang_ru;; *);
+    [Mabel Pines] (* <- lang_en;; *);;

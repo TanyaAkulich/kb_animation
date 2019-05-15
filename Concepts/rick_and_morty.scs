@@ -1,0 +1,44 @@
+rick_and_morty
+
+  -> rrel_author: justin_roiland;
+
+  -> rrel_main_character: rick_sanchez;
+  -> rrel_main_character: morty_smith;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Def. (Рик и Морти)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> comedy;;
+      -> science_fiction;;
+      -> nrel_genre;;
+      -> cartoon_network;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="rick_and_morty">Рик и Морти</b></sc_element> - американский <sc_element sys_idtf="comedy">комедийный</sc_element> <sc_element sys_idtf="science_fiction">научно-фантастический</sc_element> анимационный сериал, созданный Джастином Ройландом и Дэном Хармоном и выпускаемый в рамках блока Adult Swim на телеканале <sc_element sys_idtf="cartoon_network">Cartoon Network</sc_element>.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="rick_and_morty">Rick and Morty</b></sc_element> is an American <sc_element sys_idtf="comedy">comedy</sc_element> <sc_element sys_idtf="science_fiction">sci-fi</sc_element> animated series, created by Justin Reuland and Dan Harmon and released as part of the Adult Swim block on <sc_element sys_idtf="cartoon_network">Cartoon Network</sc_element>.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (Рик и Морти)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animator;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [Сериал посвящен злоключениям циничного безумного учёного <sc_element sys_idtf="rick_sanchez">Рика Санчеза</sc_element> и его наивного, капризного и неуверенного в себе внука <sc_element sys_idtf="morty_smith">Морти</sc_element>.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [The series is dedicated to the misadventures of the cynical mad scientist  <sc_element sys_idtf="rick_sanchez">Rick Sanchez</sc_element> and his naive, capricious and insecure grandson <sc_element sys_idtf="morty_smith">Morty</sc_element>.](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Рик и Морти)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/rick_and_morty.jpg" (* => nrel_format: format_jpg;; *);;
+    *);;
+  *);;

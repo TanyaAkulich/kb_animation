@@ -1,0 +1,6 @@
+justin_roiland
+
+  <- person;
+  => nrel_main_idtf:
+    [Джастин Роланд] (* <- lang_ru;; *);
+    [Justin Roiland] (* <- lang_en;; *);;

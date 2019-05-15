@@ -1,0 +1,8 @@
+dipper_pines
+
+  <=> nrel_friend: mabel_pines;
+  <=> nrel_family_member: mabel_pines;
+
+  => nrel_main_idtf:
+    [Диппер Пайнс] (* <- lang_ru;; *);
+    [Dipper Pines] (* <- lang_en;; *);;

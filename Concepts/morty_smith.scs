@@ -1,0 +1,7 @@
+morty_smith
+
+  <- character;
+
+  => nrel_main_idtf:
+    [Морти Смит] (* <- lang_ru;; *);
+    [Morty Smith] (* <- lang_en;; *);;

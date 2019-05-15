@@ -1,0 +1,50 @@
+gravity_falls
+
+  -> rrel_author: alex_hirsch;
+
+  -> rrel_main_character: dipper_pines;
+  -> rrel_main_character: mabel_pines;
+
+  -> rrel_secondary_character: waddles;
+
+  <- rrel_key_sc_element: ... (*
+    <- definition;;
+    => nrel_main_idtf:
+      [Def. (Гравити Фолз)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> animation;;
+      -> series;;
+      -> alex_hirsch;;
+      -> nrel_production_company;;
+      -> walt_disney_pictures;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<b><sc_element sys_idtf="gravity_falls">Гравити Фолз</b></sc_element> - американский <sc_element sys_idtf="animation">анимационный</sc_element> <sc_element sys_idtf="series">телевизионный сериал</sc_element>, созданный <sc_element sys_idtf="alex_hirsch">Алексом Хиршем</sc_element> и <sc_element sys_idtf="nrel_production_company">компанией</sc_element> <sc_element sys_idtf="walt_disney_pictures">Disney Television Animation</sc_element> для телеканалов Disney Channe.](* <- lang_ru;; => nrel_format: format_html;; *);;
+      -> [<b><sc_element sys_idtf="gravity_falls">Gravity Falls</b></sc_element> is an American <sc_element sys_idtf="animation">animated</sc_element> <sc_element sys_idtf="series">television series</sc_element> created by <sc_element sys_idtf="alex_hirsch">Alex Hirsch</sc_element> and <sc_element sys_idtf="walt_disney_pictures">Disney Television Animation</sc_element> for Disney Channel.](* <- lang_en;; => nrel_format: format_html;; *);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element: ... (*
+    <- explanation;;
+    => nrel_main_idtf:
+      [Exp. (Гравити Фолз)] (* <- lang_en;; *);;
+    <= nrel_using_constants: ... (*
+      -> cartoon;;
+      -> adventure;;
+      -> dipper_pines;;
+      -> mabel_pines;;
+    *);;
+    <= nrel_sc_text_translation: ... (*
+      -> [<sc_element sys_idtf="cartoon">Мультсериал</sc_element> повествует о <sc_element sys_idtf="adventure">приключениях</sc_element> двойняшек — мальчика <sc_element sys_idtf="dipper_pines">Диппера</sc_element> и девочки <sc_element sys_idtf="mabel_pines">Мэйбл</sc_element> Пайнс, которые проводят летние каникулы у двоюродного дедушки Стэна в вымышленном американском городке под названием Гравити Фолз.](*<-lang_ru;;=>nrel_format:format_html;;*);;
+      -> [<sc_element sys_idtf="cartoon">The animated series</sc_element> is about the  <sc_element sys_idtf="adventure">adventures</sc_element> of twins - <sc_element sys_idtf="dipper_pines">Dipper</sc_element> boy and girl <sc_element sys_idtf="mabel_pines">Mabel</sc_element> Pines, who spend summer holidays with great-uncle Stan in a fictional American town called Gravity Falls.](*<-lang_en;;=>nrel_format:format_html;;*);;
+    *);;
+  *);
+
+  <- rrel_key_sc_element:... (*
+    <- illustration;;
+    => nrel_main_idtf:
+      [Pic. (Гравити Фолз)] (* <- lang_en;; *);;
+    <= nrel_sc_text_translation: ... (*
+      -> "file://images/gravity_falls.png" (* => nrel_format: format_png;; *);;
+    *);;
+  *);;
