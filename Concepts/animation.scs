@@ -106,3 +106,11 @@ animation
       -> "file://images/animation.png" (* => nrel_format: format_png;; *);;
     *);;
   *);;
+
+nrel_number_of_components
+  <- sc_node_norole_relation;
+  => nrel_main_idtf:
+      [количество компонентов*]
+      (* <- lang_ru;;	*);
+      [number of components*]
+      (* <- lang_en;;	*);;

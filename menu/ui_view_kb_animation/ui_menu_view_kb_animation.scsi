@@ -1,0 +1,7 @@
+ui_menu_view_kb_animation <- ui_user_command_class_noatom;;
+ui_menu_view_kb_animation => nrel_main_idtf: [Команды для анимации] (* <- lang_ru;; *);;
+ui_menu_view_kb_animation => nrel_main_idtf: [Command to animation] (* <- lang_en;; *);;
+ui_menu_view_kb_animation <= nrel_ui_commands_decomposition:
+{
+	ui_menu_find_genres_of_animation
+};;
