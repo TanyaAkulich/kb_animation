@@ -3,5 +3,6 @@ ui_menu_view_kb_animation => nrel_main_idtf: [Команды для анимац
 ui_menu_view_kb_animation => nrel_main_idtf: [Command to animation] (* <- lang_en;; *);;
 ui_menu_view_kb_animation <= nrel_ui_commands_decomposition:
 {
-	ui_menu_find_genres_of_animation
+	ui_menu_find_genres_of_animation;
+	ui_menu_find_language_of_origin_of_animation
 };;
