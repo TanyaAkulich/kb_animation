@@ -1,0 +1,15 @@
+ui_menu_find_country_of_origin_of_animation <- ui_user_command_class_atom; ui_user_command_class_view_kb;
+
+=> nrel_main_idtf: [Найти страну производства заданной анимации] (* <- lang_ru;;*);
+=> nrel_main_idtf: [Find the country of origin of given animation] (* <- lang_en;;*);;
+ui_menu_find_country_of_origin_of_animation => ui_nrel_command_template:
+	[*
+		action_find_country_of_origin_of_animation _-> ._action_find_country_of_origin_of_animation_instance
+			(*
+			_-> ui_arg_1;;
+			*);;
+		._action_find_country_of_origin_of_animation_instance _<- question;;
+	*];;
+
+ui_menu_find_country_of_origin_of_animation => ui_nrel_command_lang_template: [Какую страну производства имеет заданная анимация: $ui_arg_1] (* <- lang_ru;;*);;
+ui_menu_find_country_of_origin_of_animation => ui_nrel_command_lang_template: [What is the country of origin of given animation: $ui_arg_1] (* <- lang_en;;*);;
